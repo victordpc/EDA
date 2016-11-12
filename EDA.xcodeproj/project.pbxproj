@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5781410F1DD6ABF90004F25B /* iter14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5781410E1DD6ABF90004F25B /* iter14.cpp */; };
 		57B0D04D1DD5DA3A004ECD22 /* plantilla.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B0D04C1DD5DA3A004ECD22 /* plantilla.cpp */; };
 		57B0D04F1DD5DABA004ECD22 /* iter13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B0D04E1DD5DABA004ECD22 /* iter13.cpp */; };
 		57B0D0511DD60739004ECD22 /* iter15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B0D0501DD60739004ECD22 /* iter15.cpp */; };
@@ -33,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5781410E1DD6ABF90004F25B /* iter14.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iter14.cpp; sourceTree = "<group>"; };
 		57B0D0421DD5D9F4004ECD22 /* EDA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EDA; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B0D04C1DD5DA3A004ECD22 /* plantilla.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plantilla.cpp; sourceTree = "<group>"; };
 		57B0D04E1DD5DABA004ECD22 /* iter13.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iter13.cpp; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				57EBB48F1DD6A60500569D1A /* iter7.cpp */,
 				57EBB4901DD6A60500569D1A /* iter8.cpp */,
 				57B0D04E1DD5DABA004ECD22 /* iter13.cpp */,
+				5781410E1DD6ABF90004F25B /* iter14.cpp */,
 				57B0D0501DD60739004ECD22 /* iter15.cpp */,
 			);
 			path = EDA;
@@ -157,6 +160,7 @@
 				57EBB4941DD6A60500569D1A /* iter4.cpp in Sources */,
 				57EBB4921DD6A60500569D1A /* iter2.cpp in Sources */,
 				57EBB4931DD6A60500569D1A /* iter3.cpp in Sources */,
+				5781410F1DD6ABF90004F25B /* iter14.cpp in Sources */,
 				57EBB4961DD6A60500569D1A /* iter6.cpp in Sources */,
 				57EBB4981DD6A60500569D1A /* iter8.cpp in Sources */,
 				57EBB4971DD6A60500569D1A /* iter7.cpp in Sources */,
