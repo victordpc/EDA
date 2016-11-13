@@ -15,13 +15,16 @@ int main(){
     string n = "";
     int ordenadas = 0, max = 0;
     getline(cin,n);
-
+    
     while (n != "XXX"){
-        int i = 0;
+        int i = 1;
+        int lon =n.length();
         
-        while (i< n.length() - 1) {
-            char a = n[i];
-            char b = n[i+1];
+        while (i< lon) {
+            char a = n[i-1];
+            char b = n[i];
+            a = toupper(a);
+            b = toupper(b);
             
             if (a < b){
                 ordenadas++;
@@ -38,14 +41,20 @@ int main(){
         if (ordenadas > max){
             max = ordenadas;
         }
-        if (max != 0)
-            max++;
-        
-        cout << n.length() << " " << max << endl;
 
-        getline(cin,n);
+        if (lon > 1){
+            if (max != 0)
+                max++;
+        } else{
+            if (lon ==1)
+                max++;
+        }
+        
+        cout << lon << " " << max << endl;
+
         ordenadas = 0;
         max = 0;
+        getline(cin,n);
     }
     return 0;
 }
