@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		576F87431DD9CED300839B03 /* iter12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 576F87421DD9CED300839B03 /* iter12.cpp */; };
 		5781410F1DD6ABF90004F25B /* iter14 DG-E-08- Secuencia creciente II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5781410E1DD6ABF90004F25B /* iter14 DG-E-08- Secuencia creciente II.cpp */; };
 		57B0D04D1DD5DA3A004ECD22 /* plantilla.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B0D04C1DD5DA3A004ECD22 /* plantilla.cpp */; };
 		57B0D04F1DD5DABA004ECD22 /* iter13 B-01 Temperaturas extremas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B0D04E1DD5DABA004ECD22 /* iter13 B-01 Temperaturas extremas.cpp */; };
@@ -34,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		576F87421DD9CED300839B03 /* iter12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iter12.cpp; sourceTree = "<group>"; };
 		5781410E1DD6ABF90004F25B /* iter14 DG-E-08- Secuencia creciente II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter14 DG-E-08- Secuencia creciente II.cpp"; sourceTree = "<group>"; };
 		57B0D0421DD5D9F4004ECD22 /* EDA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EDA; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B0D04C1DD5DA3A004ECD22 /* plantilla.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plantilla.cpp; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				57B0D04E1DD5DABA004ECD22 /* iter13 B-01 Temperaturas extremas.cpp */,
 				5781410E1DD6ABF90004F25B /* iter14 DG-E-08- Secuencia creciente II.cpp */,
 				57B0D0501DD60739004ECD22 /* iter15 D-P2 interpares.cpp */,
+				576F87421DD9CED300839B03 /* iter12.cpp */,
 			);
 			path = EDA;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				57EBB4911DD6A60500569D1A /* iter1 E-01-Numero de maximos.cpp in Sources */,
 				57EBB4941DD6A60500569D1A /* iter4 A03-Colones.cpp in Sources */,
 				57EBB4921DD6A60500569D1A /* iter2 B-00 La lotería de la peña Atlética.cpp in Sources */,
+				576F87431DD9CED300839B03 /* iter12.cpp in Sources */,
 				57EBB4931DD6A60500569D1A /* iter3 D-P1B Funcion Log.cpp in Sources */,
 				5781410F1DD6ABF90004F25B /* iter14 DG-E-08- Secuencia creciente II.cpp in Sources */,
 				57EBB4961DD6A60500569D1A /* iter6 DG-E-07-Secuencia creciente.cpp in Sources */,
