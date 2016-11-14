@@ -20,7 +20,7 @@
 //        sin >> v[i];
 //}
 //
-//void start() {
+//int main() {
 //    int numCasos, n;
 //    int* v;
 //    cin >> numCasos;
