@@ -18,12 +18,10 @@
 //int main() {
 //    string cadena="", patron="";
 //    
-//    getline(cin,cadena);
-//    
+//    while(getline(cin,cadena)){
 //        getline(cin, patron);
-//        
 //        cout << patronEnCadena(cadena,patron);
-//        
+//    }
 //    return 0;
 //}
 //
