@@ -16,9 +16,8 @@
 //int main(){
 //    int arriba=0, abajo=0;
 //    int** m;
-//    
-//    cin >> arriba;
-//    while (0 < arriba){
+//
+//    while (cin >> arriba){
 //        cin >> abajo;
 //        
 //        m=new int*[arriba+1];
@@ -37,8 +36,8 @@
 //            delete m[i];
 //        }
 //        delete m;
-//
-//        cin >> arriba;
+//        ariba = 0;
+//        abajo = 0;
 //    }
 //}
 //

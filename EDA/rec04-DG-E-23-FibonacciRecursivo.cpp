@@ -17,13 +17,11 @@
 //
 //int main() {
 //    int n;
-//    cin >> n;
 //
-//    while(n>=0)
+//    while(cin >> n)
 //    {
 //        cout << fib(n) << endl;
-//        
-//        cin>>n;
+//        n=0;
 //    }
 //}
 //
