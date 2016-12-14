@@ -62,7 +62,6 @@
 		57F0A7CD1E0203A10064987C /* iter13- B-01 Temperaturas extremas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter13- B-01 Temperaturas extremas.cpp"; sourceTree = "<group>"; };
 		57F0A7CE1E0203A10064987C /* iter14- DG-E-08- Secuencia creciente II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter14- DG-E-08- Secuencia creciente II.cpp"; sourceTree = "<group>"; };
 		57F0A7CF1E0203A10064987C /* iter15- D-P2 Interpares.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter15- D-P2 Interpares.cpp"; sourceTree = "<group>"; };
-		57F0A7D01E0203A10064987C /* Iter16- F-Solo los buenos suman.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Iter16- F-Solo los buenos suman.pdf"; sourceTree = "<group>"; };
 		57F0A7D11E0203A10064987C /* Rec02- A19-Número complementario.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Rec02- A19-Número complementario.cpp"; sourceTree = "<group>"; };
 		57F0A7D21E0203A10064987C /* rec03- Hotel Pico.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "rec03- Hotel Pico.cpp"; sourceTree = "<group>"; };
 		57F0A7D31E0203A10064987C /* Rec06- Polidivisibles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Rec06- Polidivisibles.cpp"; sourceTree = "<group>"; };
@@ -112,7 +111,6 @@
 				57F0A7CD1E0203A10064987C /* iter13- B-01 Temperaturas extremas.cpp */,
 				57F0A7CE1E0203A10064987C /* iter14- DG-E-08- Secuencia creciente II.cpp */,
 				57F0A7CF1E0203A10064987C /* iter15- D-P2 Interpares.cpp */,
-				57F0A7D01E0203A10064987C /* Iter16- F-Solo los buenos suman.pdf */,
 				57F0A7D11E0203A10064987C /* Rec02- A19-Número complementario.cpp */,
 				57F0A7D21E0203A10064987C /* rec03- Hotel Pico.cpp */,
 				57E9F51A1DFC64CD00BE3579 /* rec04-DG-E-23-FibonacciRecursivo.cpp */,
@@ -150,7 +148,7 @@
 		57B0D03A1DD5D9F4004ECD22 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Victor del Pino Castilla";
 				TargetAttributes = {
 					57B0D0411DD5D9F4004ECD22 = {
@@ -226,6 +224,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -273,6 +272,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
