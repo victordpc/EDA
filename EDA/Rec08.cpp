@@ -45,15 +45,13 @@ int fob2(int n, int x, int y){
     else if(n==1) return y;
     else
     {
-        int* v;
-        v = new int[n];
+        int* v = new int[n];
 
         v[0]=x;
         v[1]=y;
         for (int i = 2; i<=n; i++) {
             v[i]=-1;
         }
-
         return fob2(n, v);
     }
 }
