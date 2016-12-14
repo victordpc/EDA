@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		575E826D1E01FFC8006E6D4C /* Rec08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575E826C1E01FFC8006E6D4C /* Rec08.cpp */; };
-		576F87431DD9CED300839B03 /* iter12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 576F87421DD9CED300839B03 /* iter12.cpp */; };
+		576F87431DD9CED300839B03 /* iter12 Pattern Matching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 576F87421DD9CED300839B03 /* iter12 Pattern Matching.cpp */; };
 		57864AE81E017D2F00BE4777 /* Rec07-Moviles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57864AE71E017D2F00BE4777 /* Rec07-Moviles.cpp */; };
 		57B0D04D1DD5DA3A004ECD22 /* plantilla.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B0D04C1DD5DA3A004ECD22 /* plantilla.cpp */; };
 		57E9F51B1DFC64CD00BE3579 /* rec04-DG-E-23-FibonacciRecursivo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E9F51A1DFC64CD00BE3579 /* rec04-DG-E-23-FibonacciRecursivo.cpp */; };
@@ -44,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		575E826C1E01FFC8006E6D4C /* Rec08.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rec08.cpp; sourceTree = "<group>"; };
-		576F87421DD9CED300839B03 /* iter12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iter12.cpp; sourceTree = "<group>"; };
+		576F87421DD9CED300839B03 /* iter12 Pattern Matching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter12 Pattern Matching.cpp"; sourceTree = "<group>"; };
 		57864AE71E017D2F00BE4777 /* Rec07-Moviles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Rec07-Moviles.cpp"; sourceTree = "<group>"; };
 		57B0D0421DD5D9F4004ECD22 /* EDA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EDA; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B0D04C1DD5DA3A004ECD22 /* plantilla.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plantilla.cpp; sourceTree = "<group>"; };
@@ -102,22 +102,22 @@
 				57F0A7C51E0203A10064987C /* iter01 E-01-Numero de maximos.cpp */,
 				57F0A7C61E0203A10064987C /* iter02 B-00 La lotería de la peña Atlética.cpp */,
 				57F0A7C71E0203A10064987C /* iter03 D-P1B Funcion Log.cpp */,
+				57EBB48C1DD6A60500569D1A /* iter4 A03-Colones.cpp */,
 				57F0A7C81E0203A10064987C /* iter05 DG-E-06-Acumula los valores.cpp */,
 				57F0A7C91E0203A10064987C /* iter06 DG-E-07-Secuencia creciente.cpp */,
 				57F0A7CA1E0203A10064987C /* iter07 A09-Soy Rico.cpp */,
 				57F0A7CB1E0203A10064987C /* iter08 DG-E-02-Comprobar particion.cpp */,
 				57F0A7CC1E0203A10064987C /* iter09 particion.cpp */,
+				576F87421DD9CED300839B03 /* iter12 Pattern Matching.cpp */,
 				57F0A7CD1E0203A10064987C /* iter13- B-01 Temperaturas extremas.cpp */,
 				57F0A7CE1E0203A10064987C /* iter14- DG-E-08- Secuencia creciente II.cpp */,
 				57F0A7CF1E0203A10064987C /* iter15- D-P2 Interpares.cpp */,
 				57F0A7D01E0203A10064987C /* Iter16- F-Solo los buenos suman.pdf */,
 				57F0A7D11E0203A10064987C /* Rec02- A19-Número complementario.cpp */,
 				57F0A7D21E0203A10064987C /* rec03- Hotel Pico.cpp */,
-				57F0A7D31E0203A10064987C /* Rec06- Polidivisibles.cpp */,
-				57EBB48C1DD6A60500569D1A /* iter4 A03-Colones.cpp */,
-				576F87421DD9CED300839B03 /* iter12.cpp */,
 				57E9F51A1DFC64CD00BE3579 /* rec04-DG-E-23-FibonacciRecursivo.cpp */,
 				57E9F51C1DFDB38F00BE3579 /* rec05-DG-E-24-CombinatorioRecursivo.cpp */,
+				57F0A7D31E0203A10064987C /* Rec06- Polidivisibles.cpp */,
 				57864AE71E017D2F00BE4777 /* Rec07-Moviles.cpp */,
 				575E826C1E01FFC8006E6D4C /* Rec08.cpp */,
 			);
@@ -194,7 +194,7 @@
 				57F0A7DC1E0203A10064987C /* iter13- B-01 Temperaturas extremas.cpp in Sources */,
 				57EBB4941DD6A60500569D1A /* iter4 A03-Colones.cpp in Sources */,
 				57E9F51D1DFDB38F00BE3579 /* rec05-DG-E-24-CombinatorioRecursivo.cpp in Sources */,
-				576F87431DD9CED300839B03 /* iter12.cpp in Sources */,
+				576F87431DD9CED300839B03 /* iter12 Pattern Matching.cpp in Sources */,
 				57F0A7DA1E0203A10064987C /* iter08 DG-E-02-Comprobar particion.cpp in Sources */,
 				57F0A7DD1E0203A10064987C /* iter14- DG-E-08- Secuencia creciente II.cpp in Sources */,
 				57864AE81E017D2F00BE4777 /* Rec07-Moviles.cpp in Sources */,
