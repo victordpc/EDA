@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5744FAEB1E27C16A0085ECEE /* va05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5744FAEA1E27C16A0085ECEE /* va05.cpp */; };
+		5744FAED1E27C48B0085ECEE /* va06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5744FAEC1E27C48B0085ECEE /* va06.cpp */; };
 		575E826D1E01FFC8006E6D4C /* Rec08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575E826C1E01FFC8006E6D4C /* Rec08.cpp */; };
 		576F87431DD9CED300839B03 /* iter12 Pattern Matching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 576F87421DD9CED300839B03 /* iter12 Pattern Matching.cpp */; };
 		5786436E1E02D6D5006A18B1 /* Rec10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5786436D1E02D6D5006A18B1 /* Rec10.cpp */; };
 		57864AE81E017D2F00BE4777 /* Rec07-Moviles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57864AE71E017D2F00BE4777 /* Rec07-Moviles.cpp */; };
+		57A745491E0B065E002A9F09 /* ExamenLeila.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57A745481E0B065E002A9F09 /* ExamenLeila.cpp */; };
 		57B0D04D1DD5DA3A004ECD22 /* plantilla.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B0D04C1DD5DA3A004ECD22 /* plantilla.cpp */; };
 		57E9F51B1DFC64CD00BE3579 /* rec04-DG-E-23-FibonacciRecursivo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E9F51A1DFC64CD00BE3579 /* rec04-DG-E-23-FibonacciRecursivo.cpp */; };
 		57E9F51D1DFDB38F00BE3579 /* rec05-DG-E-24-CombinatorioRecursivo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E9F51C1DFDB38F00BE3579 /* rec05-DG-E-24-CombinatorioRecursivo.cpp */; };
@@ -44,10 +47,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5744FAEA1E27C16A0085ECEE /* va05.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = va05.cpp; sourceTree = "<group>"; };
+		5744FAEC1E27C48B0085ECEE /* va06.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = va06.cpp; sourceTree = "<group>"; };
 		575E826C1E01FFC8006E6D4C /* Rec08.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rec08.cpp; sourceTree = "<group>"; };
 		576F87421DD9CED300839B03 /* iter12 Pattern Matching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter12 Pattern Matching.cpp"; sourceTree = "<group>"; };
 		5786436D1E02D6D5006A18B1 /* Rec10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rec10.cpp; sourceTree = "<group>"; };
 		57864AE71E017D2F00BE4777 /* Rec07-Moviles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Rec07-Moviles.cpp"; sourceTree = "<group>"; };
+		57A745481E0B065E002A9F09 /* ExamenLeila.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExamenLeila.cpp; sourceTree = "<group>"; };
 		57B0D0421DD5D9F4004ECD22 /* EDA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EDA; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B0D04C1DD5DA3A004ECD22 /* plantilla.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plantilla.cpp; sourceTree = "<group>"; };
 		57E9F51A1DFC64CD00BE3579 /* rec04-DG-E-23-FibonacciRecursivo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "rec04-DG-E-23-FibonacciRecursivo.cpp"; sourceTree = "<group>"; };
@@ -121,6 +127,9 @@
 				57864AE71E017D2F00BE4777 /* Rec07-Moviles.cpp */,
 				575E826C1E01FFC8006E6D4C /* Rec08.cpp */,
 				5786436D1E02D6D5006A18B1 /* Rec10.cpp */,
+				57A745481E0B065E002A9F09 /* ExamenLeila.cpp */,
+				5744FAEA1E27C16A0085ECEE /* va05.cpp */,
+				5744FAEC1E27C48B0085ECEE /* va06.cpp */,
 			);
 			path = EDA;
 			sourceTree = "<group>";
@@ -187,6 +196,7 @@
 				57F0A7D81E0203A10064987C /* iter06 DG-E-07-Secuencia creciente.cpp in Sources */,
 				57F0A7E01E0203A10064987C /* rec03- Hotel Pico.cpp in Sources */,
 				57F0A7D51E0203A10064987C /* iter02 B-00 La lotería de la peña Atlética.cpp in Sources */,
+				5744FAEB1E27C16A0085ECEE /* va05.cpp in Sources */,
 				57B0D04D1DD5DA3A004ECD22 /* plantilla.cpp in Sources */,
 				57F0A7D91E0203A10064987C /* iter07 A09-Soy Rico.cpp in Sources */,
 				57F0A7DB1E0203A10064987C /* iter09 particion.cpp in Sources */,
@@ -194,6 +204,8 @@
 				57F0A7D41E0203A10064987C /* iter01 E-01-Numero de maximos.cpp in Sources */,
 				57F0A7DF1E0203A10064987C /* Rec02- A19-Número complementario.cpp in Sources */,
 				57F0A7DC1E0203A10064987C /* iter13- B-01 Temperaturas extremas.cpp in Sources */,
+				5744FAED1E27C48B0085ECEE /* va06.cpp in Sources */,
+				57A745491E0B065E002A9F09 /* ExamenLeila.cpp in Sources */,
 				57EBB4941DD6A60500569D1A /* iter4 A03-Colones.cpp in Sources */,
 				57E9F51D1DFDB38F00BE3579 /* rec05-DG-E-24-CombinatorioRecursivo.cpp in Sources */,
 				576F87431DD9CED300839B03 /* iter12 Pattern Matching.cpp in Sources */,
