@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		571E0CF01E2CF6AC002CB741 /* DyV02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 571E0CEF1E2CF6AC002CB741 /* DyV02.cpp */; };
 		5744FAEB1E27C16A0085ECEE /* va05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5744FAEA1E27C16A0085ECEE /* va05.cpp */; };
 		5744FAED1E27C48B0085ECEE /* va06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5744FAEC1E27C48B0085ECEE /* va06.cpp */; };
 		575E826D1E01FFC8006E6D4C /* Rec08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575E826C1E01FFC8006E6D4C /* Rec08.cpp */; };
@@ -47,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		571E0CEF1E2CF6AC002CB741 /* DyV02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DyV02.cpp; sourceTree = "<group>"; };
 		5744FAEA1E27C16A0085ECEE /* va05.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = va05.cpp; sourceTree = "<group>"; };
 		5744FAEC1E27C48B0085ECEE /* va06.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = va06.cpp; sourceTree = "<group>"; };
 		575E826C1E01FFC8006E6D4C /* Rec08.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rec08.cpp; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				57A745481E0B065E002A9F09 /* ExamenLeila.cpp */,
 				5744FAEA1E27C16A0085ECEE /* va05.cpp */,
 				5744FAEC1E27C48B0085ECEE /* va06.cpp */,
+				571E0CEF1E2CF6AC002CB741 /* DyV02.cpp */,
 			);
 			path = EDA;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				57F0A7DE1E0203A10064987C /* iter15- D-P2 Interpares.cpp in Sources */,
 				575E826D1E01FFC8006E6D4C /* Rec08.cpp in Sources */,
 				57F0A7D71E0203A10064987C /* iter05 DG-E-06-Acumula los valores.cpp in Sources */,
+				571E0CF01E2CF6AC002CB741 /* DyV02.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
