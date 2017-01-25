@@ -12,6 +12,7 @@
 		5744FAED1E27C48B0085ECEE /* va06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5744FAEC1E27C48B0085ECEE /* va06.cpp */; };
 		575E826D1E01FFC8006E6D4C /* Rec08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575E826C1E01FFC8006E6D4C /* Rec08.cpp */; };
 		575FC5661E31008C00977275 /* Feb2016.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575FC5651E31008C00977275 /* Feb2016.cpp */; };
+		576DBB4D1E396A10008BDC3C /* DyV04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 576DBB4C1E396A10008BDC3C /* DyV04.cpp */; };
 		576F87431DD9CED300839B03 /* iter12 Pattern Matching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 576F87421DD9CED300839B03 /* iter12 Pattern Matching.cpp */; };
 		5786436E1E02D6D5006A18B1 /* Rec10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5786436D1E02D6D5006A18B1 /* Rec10.cpp */; };
 		57864AE81E017D2F00BE4777 /* Rec07-Moviles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57864AE71E017D2F00BE4777 /* Rec07-Moviles.cpp */; };
@@ -56,6 +57,7 @@
 		5744FAEC1E27C48B0085ECEE /* va06.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = va06.cpp; sourceTree = "<group>"; };
 		575E826C1E01FFC8006E6D4C /* Rec08.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rec08.cpp; sourceTree = "<group>"; };
 		575FC5651E31008C00977275 /* Feb2016.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Feb2016.cpp; sourceTree = "<group>"; };
+		576DBB4C1E396A10008BDC3C /* DyV04.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DyV04.cpp; sourceTree = "<group>"; };
 		576F87421DD9CED300839B03 /* iter12 Pattern Matching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter12 Pattern Matching.cpp"; sourceTree = "<group>"; };
 		5786436D1E02D6D5006A18B1 /* Rec10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rec10.cpp; sourceTree = "<group>"; };
 		57864AE71E017D2F00BE4777 /* Rec07-Moviles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Rec07-Moviles.cpp"; sourceTree = "<group>"; };
@@ -114,6 +116,11 @@
 		57B0D0441DD5D9F4004ECD22 /* EDA */ = {
 			isa = PBXGroup;
 			children = (
+				571E0CEF1E2CF6AC002CB741 /* DyV02.cpp */,
+				57E0F5D11E37BDAB00FD00E2 /* DyV03.cpp */,
+				57A745481E0B065E002A9F09 /* ExamenLeila.cpp */,
+				57E0F5CF1E34FB8900FD00E2 /* Feb2015.cpp */,
+				575FC5651E31008C00977275 /* Feb2016.cpp */,
 				57F0A7C51E0203A10064987C /* iter01 E-01-Numero de maximos.cpp */,
 				57F0A7C61E0203A10064987C /* iter02 B-00 La lotería de la peña Atlética.cpp */,
 				57F0A7C71E0203A10064987C /* iter03 D-P1B Funcion Log.cpp */,
@@ -135,13 +142,9 @@
 				57864AE71E017D2F00BE4777 /* Rec07-Moviles.cpp */,
 				575E826C1E01FFC8006E6D4C /* Rec08.cpp */,
 				5786436D1E02D6D5006A18B1 /* Rec10.cpp */,
-				57A745481E0B065E002A9F09 /* ExamenLeila.cpp */,
 				5744FAEA1E27C16A0085ECEE /* va05.cpp */,
 				5744FAEC1E27C48B0085ECEE /* va06.cpp */,
-				571E0CEF1E2CF6AC002CB741 /* DyV02.cpp */,
-				575FC5651E31008C00977275 /* Feb2016.cpp */,
-				57E0F5CF1E34FB8900FD00E2 /* Feb2015.cpp */,
-				57E0F5D11E37BDAB00FD00E2 /* DyV03.cpp */,
+				576DBB4C1E396A10008BDC3C /* DyV04.cpp */,
 			);
 			path = EDA;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				576F87431DD9CED300839B03 /* iter12 Pattern Matching.cpp in Sources */,
 				57F0A7DA1E0203A10064987C /* iter08 DG-E-02-Comprobar particion.cpp in Sources */,
 				57F0A7DD1E0203A10064987C /* iter14- DG-E-08- Secuencia creciente II.cpp in Sources */,
+				576DBB4D1E396A10008BDC3C /* DyV04.cpp in Sources */,
 				57864AE81E017D2F00BE4777 /* Rec07-Moviles.cpp in Sources */,
 				57F0A7E11E0203A10064987C /* Rec06- Polidivisibles.cpp in Sources */,
 				57F0A7DE1E0203A10064987C /* iter15- D-P2 Interpares.cpp in Sources */,
