@@ -7,23 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		570C70C11DF0676200F7E72B /* rec03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570C70C01DF0676200F7E72B /* rec03.cpp */; };
-		576F87431DD9CED300839B03 /* iter12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 576F87421DD9CED300839B03 /* iter12.cpp */; };
-		5781410F1DD6ABF90004F25B /* iter14 DG-E-08- Secuencia creciente II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5781410E1DD6ABF90004F25B /* iter14 DG-E-08- Secuencia creciente II.cpp */; };
+		571E0CF01E2CF6AC002CB741 /* DyV02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 571E0CEF1E2CF6AC002CB741 /* DyV02.cpp */; };
+		5744FAEB1E27C16A0085ECEE /* va05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5744FAEA1E27C16A0085ECEE /* va05.cpp */; };
+		5744FAED1E27C48B0085ECEE /* va06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5744FAEC1E27C48B0085ECEE /* va06.cpp */; };
+		575E826D1E01FFC8006E6D4C /* Rec08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575E826C1E01FFC8006E6D4C /* Rec08.cpp */; };
+		575FC5661E31008C00977275 /* Feb2016.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575FC5651E31008C00977275 /* Feb2016.cpp */; };
+		576DBB4D1E396A10008BDC3C /* DyV04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 576DBB4C1E396A10008BDC3C /* DyV04.cpp */; };
+		576F87431DD9CED300839B03 /* iter12 Pattern Matching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 576F87421DD9CED300839B03 /* iter12 Pattern Matching.cpp */; };
+		5786436E1E02D6D5006A18B1 /* Rec10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5786436D1E02D6D5006A18B1 /* Rec10.cpp */; };
+		57864AE81E017D2F00BE4777 /* Rec07-Moviles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57864AE71E017D2F00BE4777 /* Rec07-Moviles.cpp */; };
+		57A745491E0B065E002A9F09 /* ExamenLeila.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57A745481E0B065E002A9F09 /* ExamenLeila.cpp */; };
 		57B0D04D1DD5DA3A004ECD22 /* plantilla.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B0D04C1DD5DA3A004ECD22 /* plantilla.cpp */; };
-		57B0D04F1DD5DABA004ECD22 /* iter13 B-01 Temperaturas extremas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B0D04E1DD5DABA004ECD22 /* iter13 B-01 Temperaturas extremas.cpp */; };
-		57B0D0511DD60739004ECD22 /* iter15 D-P2 Interpares.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B0D0501DD60739004ECD22 /* iter15 D-P2 Interpares.cpp */; };
-		57DADC5A1DE75D11009EBC8E /* Rec02 A19-Número complementario.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57DADC591DE75D11009EBC8E /* Rec02 A19-Número complementario.cpp */; };
-		57E9F51B1DFC64CD00BE3579 /* rec04 DG-E-23-FibonacciRecursivo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E9F51A1DFC64CD00BE3579 /* rec04 DG-E-23-FibonacciRecursivo.cpp */; };
-		57E9F51D1DFDB38F00BE3579 /* rec05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E9F51C1DFDB38F00BE3579 /* rec05.cpp */; };
-		57EBB4911DD6A60500569D1A /* iter1 E-01-Numero de maximos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57EBB4891DD6A60500569D1A /* iter1 E-01-Numero de maximos.cpp */; };
-		57EBB4921DD6A60500569D1A /* iter2 B-00 La lotería de la peña Atlética.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57EBB48A1DD6A60500569D1A /* iter2 B-00 La lotería de la peña Atlética.cpp */; };
-		57EBB4931DD6A60500569D1A /* iter3 D-P1B Funcion Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57EBB48B1DD6A60500569D1A /* iter3 D-P1B Funcion Log.cpp */; };
+		57E0F5D01E34FB8900FD00E2 /* Feb2015.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E0F5CF1E34FB8900FD00E2 /* Feb2015.cpp */; };
+		57E0F5D21E37BDAB00FD00E2 /* DyV03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E0F5D11E37BDAB00FD00E2 /* DyV03.cpp */; };
+		57E9F51B1DFC64CD00BE3579 /* rec04-DG-E-23-FibonacciRecursivo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E9F51A1DFC64CD00BE3579 /* rec04-DG-E-23-FibonacciRecursivo.cpp */; };
+		57E9F51D1DFDB38F00BE3579 /* rec05-DG-E-24-CombinatorioRecursivo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E9F51C1DFDB38F00BE3579 /* rec05-DG-E-24-CombinatorioRecursivo.cpp */; };
 		57EBB4941DD6A60500569D1A /* iter4 A03-Colones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57EBB48C1DD6A60500569D1A /* iter4 A03-Colones.cpp */; };
-		57EBB4951DD6A60500569D1A /* iter5 DG-E-06-Acumula los valores.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57EBB48D1DD6A60500569D1A /* iter5 DG-E-06-Acumula los valores.cpp */; };
-		57EBB4961DD6A60500569D1A /* iter6 DG-E-07-Secuencia creciente.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57EBB48E1DD6A60500569D1A /* iter6 DG-E-07-Secuencia creciente.cpp */; };
-		57EBB4971DD6A60500569D1A /* iter7 A09-Soy Rico.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57EBB48F1DD6A60500569D1A /* iter7 A09-Soy Rico.cpp */; };
-		57EBB4981DD6A60500569D1A /* iter8 DG-E-02-Comprobar particion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57EBB4901DD6A60500569D1A /* iter8 DG-E-02-Comprobar particion.cpp */; };
+		57F0A7D41E0203A10064987C /* iter01 E-01-Numero de maximos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7C51E0203A10064987C /* iter01 E-01-Numero de maximos.cpp */; };
+		57F0A7D51E0203A10064987C /* iter02 B-00 La lotería de la peña Atlética.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7C61E0203A10064987C /* iter02 B-00 La lotería de la peña Atlética.cpp */; };
+		57F0A7D61E0203A10064987C /* iter03 D-P1B Funcion Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7C71E0203A10064987C /* iter03 D-P1B Funcion Log.cpp */; };
+		57F0A7D71E0203A10064987C /* iter05 DG-E-06-Acumula los valores.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7C81E0203A10064987C /* iter05 DG-E-06-Acumula los valores.cpp */; };
+		57F0A7D81E0203A10064987C /* iter06 DG-E-07-Secuencia creciente.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7C91E0203A10064987C /* iter06 DG-E-07-Secuencia creciente.cpp */; };
+		57F0A7D91E0203A10064987C /* iter07 A09-Soy Rico.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7CA1E0203A10064987C /* iter07 A09-Soy Rico.cpp */; };
+		57F0A7DA1E0203A10064987C /* iter08 DG-E-02-Comprobar particion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7CB1E0203A10064987C /* iter08 DG-E-02-Comprobar particion.cpp */; };
+		57F0A7DB1E0203A10064987C /* iter09 particion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7CC1E0203A10064987C /* iter09 particion.cpp */; };
+		57F0A7DC1E0203A10064987C /* iter13- B-01 Temperaturas extremas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7CD1E0203A10064987C /* iter13- B-01 Temperaturas extremas.cpp */; };
+		57F0A7DD1E0203A10064987C /* iter14- DG-E-08- Secuencia creciente II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7CE1E0203A10064987C /* iter14- DG-E-08- Secuencia creciente II.cpp */; };
+		57F0A7DE1E0203A10064987C /* iter15- D-P2 Interpares.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7CF1E0203A10064987C /* iter15- D-P2 Interpares.cpp */; };
+		57F0A7DF1E0203A10064987C /* Rec02- A19-Número complementario.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7D11E0203A10064987C /* Rec02- A19-Número complementario.cpp */; };
+		57F0A7E01E0203A10064987C /* rec03- Hotel Pico.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7D21E0203A10064987C /* rec03- Hotel Pico.cpp */; };
+		57F0A7E11E0203A10064987C /* Rec06- Polidivisibles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7D31E0203A10064987C /* Rec06- Polidivisibles.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,24 +52,37 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		570C70C01DF0676200F7E72B /* rec03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rec03.cpp; sourceTree = "<group>"; };
-		576F87421DD9CED300839B03 /* iter12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iter12.cpp; sourceTree = "<group>"; };
-		5781410E1DD6ABF90004F25B /* iter14 DG-E-08- Secuencia creciente II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter14 DG-E-08- Secuencia creciente II.cpp"; sourceTree = "<group>"; };
+		571E0CEF1E2CF6AC002CB741 /* DyV02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DyV02.cpp; sourceTree = "<group>"; };
+		5744FAEA1E27C16A0085ECEE /* va05.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = va05.cpp; sourceTree = "<group>"; };
+		5744FAEC1E27C48B0085ECEE /* va06.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = va06.cpp; sourceTree = "<group>"; };
+		575E826C1E01FFC8006E6D4C /* Rec08.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rec08.cpp; sourceTree = "<group>"; };
+		575FC5651E31008C00977275 /* Feb2016.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Feb2016.cpp; sourceTree = "<group>"; };
+		576DBB4C1E396A10008BDC3C /* DyV04.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DyV04.cpp; sourceTree = "<group>"; };
+		576F87421DD9CED300839B03 /* iter12 Pattern Matching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter12 Pattern Matching.cpp"; sourceTree = "<group>"; };
+		5786436D1E02D6D5006A18B1 /* Rec10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rec10.cpp; sourceTree = "<group>"; };
+		57864AE71E017D2F00BE4777 /* Rec07-Moviles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Rec07-Moviles.cpp"; sourceTree = "<group>"; };
+		57A745481E0B065E002A9F09 /* ExamenLeila.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExamenLeila.cpp; sourceTree = "<group>"; };
 		57B0D0421DD5D9F4004ECD22 /* EDA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EDA; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B0D04C1DD5DA3A004ECD22 /* plantilla.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plantilla.cpp; sourceTree = "<group>"; };
-		57B0D04E1DD5DABA004ECD22 /* iter13 B-01 Temperaturas extremas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter13 B-01 Temperaturas extremas.cpp"; sourceTree = "<group>"; };
-		57B0D0501DD60739004ECD22 /* iter15 D-P2 Interpares.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter15 D-P2 Interpares.cpp"; sourceTree = "<group>"; };
-		57DADC591DE75D11009EBC8E /* Rec02 A19-Número complementario.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Rec02 A19-Número complementario.cpp"; sourceTree = "<group>"; };
-		57E9F51A1DFC64CD00BE3579 /* rec04 DG-E-23-FibonacciRecursivo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "rec04 DG-E-23-FibonacciRecursivo.cpp"; sourceTree = "<group>"; };
-		57E9F51C1DFDB38F00BE3579 /* rec05.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rec05.cpp; sourceTree = "<group>"; };
-		57EBB4891DD6A60500569D1A /* iter1 E-01-Numero de maximos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter1 E-01-Numero de maximos.cpp"; sourceTree = "<group>"; };
-		57EBB48A1DD6A60500569D1A /* iter2 B-00 La lotería de la peña Atlética.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter2 B-00 La lotería de la peña Atlética.cpp"; sourceTree = "<group>"; };
-		57EBB48B1DD6A60500569D1A /* iter3 D-P1B Funcion Log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter3 D-P1B Funcion Log.cpp"; sourceTree = "<group>"; };
+		57E0F5CF1E34FB8900FD00E2 /* Feb2015.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Feb2015.cpp; sourceTree = "<group>"; };
+		57E0F5D11E37BDAB00FD00E2 /* DyV03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DyV03.cpp; sourceTree = "<group>"; };
+		57E9F51A1DFC64CD00BE3579 /* rec04-DG-E-23-FibonacciRecursivo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "rec04-DG-E-23-FibonacciRecursivo.cpp"; sourceTree = "<group>"; };
+		57E9F51C1DFDB38F00BE3579 /* rec05-DG-E-24-CombinatorioRecursivo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "rec05-DG-E-24-CombinatorioRecursivo.cpp"; sourceTree = "<group>"; };
 		57EBB48C1DD6A60500569D1A /* iter4 A03-Colones.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter4 A03-Colones.cpp"; sourceTree = "<group>"; };
-		57EBB48D1DD6A60500569D1A /* iter5 DG-E-06-Acumula los valores.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter5 DG-E-06-Acumula los valores.cpp"; sourceTree = "<group>"; };
-		57EBB48E1DD6A60500569D1A /* iter6 DG-E-07-Secuencia creciente.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter6 DG-E-07-Secuencia creciente.cpp"; sourceTree = "<group>"; };
-		57EBB48F1DD6A60500569D1A /* iter7 A09-Soy Rico.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter7 A09-Soy Rico.cpp"; sourceTree = "<group>"; };
-		57EBB4901DD6A60500569D1A /* iter8 DG-E-02-Comprobar particion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter8 DG-E-02-Comprobar particion.cpp"; sourceTree = "<group>"; };
+		57F0A7C51E0203A10064987C /* iter01 E-01-Numero de maximos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter01 E-01-Numero de maximos.cpp"; sourceTree = "<group>"; };
+		57F0A7C61E0203A10064987C /* iter02 B-00 La lotería de la peña Atlética.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter02 B-00 La lotería de la peña Atlética.cpp"; sourceTree = "<group>"; };
+		57F0A7C71E0203A10064987C /* iter03 D-P1B Funcion Log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter03 D-P1B Funcion Log.cpp"; sourceTree = "<group>"; };
+		57F0A7C81E0203A10064987C /* iter05 DG-E-06-Acumula los valores.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter05 DG-E-06-Acumula los valores.cpp"; sourceTree = "<group>"; };
+		57F0A7C91E0203A10064987C /* iter06 DG-E-07-Secuencia creciente.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter06 DG-E-07-Secuencia creciente.cpp"; sourceTree = "<group>"; };
+		57F0A7CA1E0203A10064987C /* iter07 A09-Soy Rico.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter07 A09-Soy Rico.cpp"; sourceTree = "<group>"; };
+		57F0A7CB1E0203A10064987C /* iter08 DG-E-02-Comprobar particion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter08 DG-E-02-Comprobar particion.cpp"; sourceTree = "<group>"; };
+		57F0A7CC1E0203A10064987C /* iter09 particion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter09 particion.cpp"; sourceTree = "<group>"; };
+		57F0A7CD1E0203A10064987C /* iter13- B-01 Temperaturas extremas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter13- B-01 Temperaturas extremas.cpp"; sourceTree = "<group>"; };
+		57F0A7CE1E0203A10064987C /* iter14- DG-E-08- Secuencia creciente II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter14- DG-E-08- Secuencia creciente II.cpp"; sourceTree = "<group>"; };
+		57F0A7CF1E0203A10064987C /* iter15- D-P2 Interpares.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter15- D-P2 Interpares.cpp"; sourceTree = "<group>"; };
+		57F0A7D11E0203A10064987C /* Rec02- A19-Número complementario.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Rec02- A19-Número complementario.cpp"; sourceTree = "<group>"; };
+		57F0A7D21E0203A10064987C /* rec03- Hotel Pico.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "rec03- Hotel Pico.cpp"; sourceTree = "<group>"; };
+		57F0A7D31E0203A10064987C /* Rec06- Polidivisibles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Rec06- Polidivisibles.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,22 +116,35 @@
 		57B0D0441DD5D9F4004ECD22 /* EDA */ = {
 			isa = PBXGroup;
 			children = (
-				57EBB4891DD6A60500569D1A /* iter1 E-01-Numero de maximos.cpp */,
-				57EBB48A1DD6A60500569D1A /* iter2 B-00 La lotería de la peña Atlética.cpp */,
-				57EBB48B1DD6A60500569D1A /* iter3 D-P1B Funcion Log.cpp */,
+				571E0CEF1E2CF6AC002CB741 /* DyV02.cpp */,
+				57E0F5D11E37BDAB00FD00E2 /* DyV03.cpp */,
+				57A745481E0B065E002A9F09 /* ExamenLeila.cpp */,
+				57E0F5CF1E34FB8900FD00E2 /* Feb2015.cpp */,
+				575FC5651E31008C00977275 /* Feb2016.cpp */,
+				57F0A7C51E0203A10064987C /* iter01 E-01-Numero de maximos.cpp */,
+				57F0A7C61E0203A10064987C /* iter02 B-00 La lotería de la peña Atlética.cpp */,
+				57F0A7C71E0203A10064987C /* iter03 D-P1B Funcion Log.cpp */,
 				57EBB48C1DD6A60500569D1A /* iter4 A03-Colones.cpp */,
-				57EBB48D1DD6A60500569D1A /* iter5 DG-E-06-Acumula los valores.cpp */,
-				57EBB48E1DD6A60500569D1A /* iter6 DG-E-07-Secuencia creciente.cpp */,
-				57EBB48F1DD6A60500569D1A /* iter7 A09-Soy Rico.cpp */,
-				57EBB4901DD6A60500569D1A /* iter8 DG-E-02-Comprobar particion.cpp */,
-				576F87421DD9CED300839B03 /* iter12.cpp */,
-				57B0D04E1DD5DABA004ECD22 /* iter13 B-01 Temperaturas extremas.cpp */,
-				5781410E1DD6ABF90004F25B /* iter14 DG-E-08- Secuencia creciente II.cpp */,
-				57B0D0501DD60739004ECD22 /* iter15 D-P2 Interpares.cpp */,
-				57DADC591DE75D11009EBC8E /* Rec02 A19-Número complementario.cpp */,
-				570C70C01DF0676200F7E72B /* rec03.cpp */,
-				57E9F51A1DFC64CD00BE3579 /* rec04 DG-E-23-FibonacciRecursivo.cpp */,
-				57E9F51C1DFDB38F00BE3579 /* rec05.cpp */,
+				57F0A7C81E0203A10064987C /* iter05 DG-E-06-Acumula los valores.cpp */,
+				57F0A7C91E0203A10064987C /* iter06 DG-E-07-Secuencia creciente.cpp */,
+				57F0A7CA1E0203A10064987C /* iter07 A09-Soy Rico.cpp */,
+				57F0A7CB1E0203A10064987C /* iter08 DG-E-02-Comprobar particion.cpp */,
+				57F0A7CC1E0203A10064987C /* iter09 particion.cpp */,
+				576F87421DD9CED300839B03 /* iter12 Pattern Matching.cpp */,
+				57F0A7CD1E0203A10064987C /* iter13- B-01 Temperaturas extremas.cpp */,
+				57F0A7CE1E0203A10064987C /* iter14- DG-E-08- Secuencia creciente II.cpp */,
+				57F0A7CF1E0203A10064987C /* iter15- D-P2 Interpares.cpp */,
+				57F0A7D11E0203A10064987C /* Rec02- A19-Número complementario.cpp */,
+				57F0A7D21E0203A10064987C /* rec03- Hotel Pico.cpp */,
+				57E9F51A1DFC64CD00BE3579 /* rec04-DG-E-23-FibonacciRecursivo.cpp */,
+				57E9F51C1DFDB38F00BE3579 /* rec05-DG-E-24-CombinatorioRecursivo.cpp */,
+				57F0A7D31E0203A10064987C /* Rec06- Polidivisibles.cpp */,
+				57864AE71E017D2F00BE4777 /* Rec07-Moviles.cpp */,
+				575E826C1E01FFC8006E6D4C /* Rec08.cpp */,
+				5786436D1E02D6D5006A18B1 /* Rec10.cpp */,
+				5744FAEA1E27C16A0085ECEE /* va05.cpp */,
+				5744FAEC1E27C48B0085ECEE /* va06.cpp */,
+				576DBB4C1E396A10008BDC3C /* DyV04.cpp */,
 			);
 			path = EDA;
 			sourceTree = "<group>";
@@ -136,7 +175,7 @@
 		57B0D03A1DD5D9F4004ECD22 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Victor del Pino Castilla";
 				TargetAttributes = {
 					57B0D0411DD5D9F4004ECD22 = {
@@ -167,23 +206,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57E9F51B1DFC64CD00BE3579 /* rec04 DG-E-23-FibonacciRecursivo.cpp in Sources */,
-				57B0D04F1DD5DABA004ECD22 /* iter13 B-01 Temperaturas extremas.cpp in Sources */,
-				57B0D0511DD60739004ECD22 /* iter15 D-P2 Interpares.cpp in Sources */,
+				57E9F51B1DFC64CD00BE3579 /* rec04-DG-E-23-FibonacciRecursivo.cpp in Sources */,
+				57E0F5D01E34FB8900FD00E2 /* Feb2015.cpp in Sources */,
+				5786436E1E02D6D5006A18B1 /* Rec10.cpp in Sources */,
+				57F0A7D81E0203A10064987C /* iter06 DG-E-07-Secuencia creciente.cpp in Sources */,
+				57F0A7E01E0203A10064987C /* rec03- Hotel Pico.cpp in Sources */,
+				57F0A7D51E0203A10064987C /* iter02 B-00 La lotería de la peña Atlética.cpp in Sources */,
+				5744FAEB1E27C16A0085ECEE /* va05.cpp in Sources */,
 				57B0D04D1DD5DA3A004ECD22 /* plantilla.cpp in Sources */,
-				57DADC5A1DE75D11009EBC8E /* Rec02 A19-Número complementario.cpp in Sources */,
-				570C70C11DF0676200F7E72B /* rec03.cpp in Sources */,
-				57EBB4951DD6A60500569D1A /* iter5 DG-E-06-Acumula los valores.cpp in Sources */,
-				57EBB4911DD6A60500569D1A /* iter1 E-01-Numero de maximos.cpp in Sources */,
+				57F0A7D91E0203A10064987C /* iter07 A09-Soy Rico.cpp in Sources */,
+				57F0A7DB1E0203A10064987C /* iter09 particion.cpp in Sources */,
+				57F0A7D61E0203A10064987C /* iter03 D-P1B Funcion Log.cpp in Sources */,
+				57F0A7D41E0203A10064987C /* iter01 E-01-Numero de maximos.cpp in Sources */,
+				57F0A7DF1E0203A10064987C /* Rec02- A19-Número complementario.cpp in Sources */,
+				575FC5661E31008C00977275 /* Feb2016.cpp in Sources */,
+				57F0A7DC1E0203A10064987C /* iter13- B-01 Temperaturas extremas.cpp in Sources */,
+				5744FAED1E27C48B0085ECEE /* va06.cpp in Sources */,
+				57A745491E0B065E002A9F09 /* ExamenLeila.cpp in Sources */,
 				57EBB4941DD6A60500569D1A /* iter4 A03-Colones.cpp in Sources */,
-				57EBB4921DD6A60500569D1A /* iter2 B-00 La lotería de la peña Atlética.cpp in Sources */,
-				57E9F51D1DFDB38F00BE3579 /* rec05.cpp in Sources */,
-				576F87431DD9CED300839B03 /* iter12.cpp in Sources */,
-				57EBB4931DD6A60500569D1A /* iter3 D-P1B Funcion Log.cpp in Sources */,
-				5781410F1DD6ABF90004F25B /* iter14 DG-E-08- Secuencia creciente II.cpp in Sources */,
-				57EBB4961DD6A60500569D1A /* iter6 DG-E-07-Secuencia creciente.cpp in Sources */,
-				57EBB4981DD6A60500569D1A /* iter8 DG-E-02-Comprobar particion.cpp in Sources */,
-				57EBB4971DD6A60500569D1A /* iter7 A09-Soy Rico.cpp in Sources */,
+				57E0F5D21E37BDAB00FD00E2 /* DyV03.cpp in Sources */,
+				57E9F51D1DFDB38F00BE3579 /* rec05-DG-E-24-CombinatorioRecursivo.cpp in Sources */,
+				576F87431DD9CED300839B03 /* iter12 Pattern Matching.cpp in Sources */,
+				57F0A7DA1E0203A10064987C /* iter08 DG-E-02-Comprobar particion.cpp in Sources */,
+				57F0A7DD1E0203A10064987C /* iter14- DG-E-08- Secuencia creciente II.cpp in Sources */,
+				576DBB4D1E396A10008BDC3C /* DyV04.cpp in Sources */,
+				57864AE81E017D2F00BE4777 /* Rec07-Moviles.cpp in Sources */,
+				57F0A7E11E0203A10064987C /* Rec06- Polidivisibles.cpp in Sources */,
+				57F0A7DE1E0203A10064987C /* iter15- D-P2 Interpares.cpp in Sources */,
+				575E826D1E01FFC8006E6D4C /* Rec08.cpp in Sources */,
+				57F0A7D71E0203A10064987C /* iter05 DG-E-06-Acumula los valores.cpp in Sources */,
+				571E0CF01E2CF6AC002CB741 /* DyV02.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +260,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -255,6 +308,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
