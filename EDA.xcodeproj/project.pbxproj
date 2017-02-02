@@ -18,6 +18,8 @@
 		57864AE81E017D2F00BE4777 /* Rec07-Moviles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57864AE71E017D2F00BE4777 /* Rec07-Moviles.cpp */; };
 		57A745491E0B065E002A9F09 /* ExamenLeila.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57A745481E0B065E002A9F09 /* ExamenLeila.cpp */; };
 		57B0D04D1DD5DA3A004ECD22 /* plantilla.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57B0D04C1DD5DA3A004ECD22 /* plantilla.cpp */; };
+		57D462BF1E413BF300231B37 /* va01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57D462BE1E413BF300231B37 /* va01.cpp */; };
+		57D462C11E414A2600231B37 /* va02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57D462C01E414A2600231B37 /* va02.cpp */; };
 		57E0F5D01E34FB8900FD00E2 /* Feb2015.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E0F5CF1E34FB8900FD00E2 /* Feb2015.cpp */; };
 		57E0F5D21E37BDAB00FD00E2 /* DyV03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E0F5D11E37BDAB00FD00E2 /* DyV03.cpp */; };
 		57E9F51B1DFC64CD00BE3579 /* rec04-DG-E-23-FibonacciRecursivo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E9F51A1DFC64CD00BE3579 /* rec04-DG-E-23-FibonacciRecursivo.cpp */; };
@@ -64,6 +66,8 @@
 		57A745481E0B065E002A9F09 /* ExamenLeila.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExamenLeila.cpp; sourceTree = "<group>"; };
 		57B0D0421DD5D9F4004ECD22 /* EDA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EDA; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B0D04C1DD5DA3A004ECD22 /* plantilla.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plantilla.cpp; sourceTree = "<group>"; };
+		57D462BE1E413BF300231B37 /* va01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = va01.cpp; sourceTree = "<group>"; };
+		57D462C01E414A2600231B37 /* va02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = va02.cpp; sourceTree = "<group>"; };
 		57E0F5CF1E34FB8900FD00E2 /* Feb2015.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Feb2015.cpp; sourceTree = "<group>"; };
 		57E0F5D11E37BDAB00FD00E2 /* DyV03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DyV03.cpp; sourceTree = "<group>"; };
 		57E9F51A1DFC64CD00BE3579 /* rec04-DG-E-23-FibonacciRecursivo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "rec04-DG-E-23-FibonacciRecursivo.cpp"; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 				5744FAEA1E27C16A0085ECEE /* va05.cpp */,
 				5744FAEC1E27C48B0085ECEE /* va06.cpp */,
 				576DBB4C1E396A10008BDC3C /* DyV04.cpp */,
+				57D462BE1E413BF300231B37 /* va01.cpp */,
+				57D462C01E414A2600231B37 /* va02.cpp */,
 			);
 			path = EDA;
 			sourceTree = "<group>";
@@ -224,6 +230,7 @@
 				5744FAED1E27C48B0085ECEE /* va06.cpp in Sources */,
 				57A745491E0B065E002A9F09 /* ExamenLeila.cpp in Sources */,
 				57EBB4941DD6A60500569D1A /* iter4 A03-Colones.cpp in Sources */,
+				57D462C11E414A2600231B37 /* va02.cpp in Sources */,
 				57E0F5D21E37BDAB00FD00E2 /* DyV03.cpp in Sources */,
 				57E9F51D1DFDB38F00BE3579 /* rec05-DG-E-24-CombinatorioRecursivo.cpp in Sources */,
 				576F87431DD9CED300839B03 /* iter12 Pattern Matching.cpp in Sources */,
@@ -234,6 +241,7 @@
 				57F0A7E11E0203A10064987C /* Rec06- Polidivisibles.cpp in Sources */,
 				57F0A7DE1E0203A10064987C /* iter15- D-P2 Interpares.cpp in Sources */,
 				575E826D1E01FFC8006E6D4C /* Rec08.cpp in Sources */,
+				57D462BF1E413BF300231B37 /* va01.cpp in Sources */,
 				57F0A7D71E0203A10064987C /* iter05 DG-E-06-Acumula los valores.cpp in Sources */,
 				571E0CF01E2CF6AC002CB741 /* DyV02.cpp in Sources */,
 			);

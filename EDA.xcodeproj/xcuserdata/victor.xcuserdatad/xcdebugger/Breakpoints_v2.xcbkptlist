@@ -42,9 +42,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "main()"
-            landmarkType = "9">
+            endingLineNumber = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -58,9 +56,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "main()"
-            landmarkType = "9">
+            endingLineNumber = "37">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -508,8 +504,38 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "178"
-            endingLineNumber = "178"
-            landmarkName = "elegirCanciones(int n, int tiempoCinta, int* tiempos, int* puntuaciones)"
+            endingLineNumber = "178">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EDA/va02.cpp"
+            timestampString = "507642013.578257"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EDA/va02.cpp"
+            timestampString = "507642054.434958"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
