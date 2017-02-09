@@ -22,6 +22,8 @@
 		57C338901E4B2B0700A5F230 /* Rec02- A19 Número complementario.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C3388E1E4B2B0700A5F230 /* Rec02- A19 Número complementario.cpp */; };
 		57C338911E4B2B0700A5F230 /* Rec04-DG-E-23 FibonacciRecursivo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C3388F1E4B2B0700A5F230 /* Rec04-DG-E-23 FibonacciRecursivo.cpp */; };
 		57C338931E4B309E00A5F230 /* va03 DG-E-33-VA Funcionarios Sin Estimacion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C338921E4B309E00A5F230 /* va03 DG-E-33-VA Funcionarios Sin Estimacion.cpp */; };
+		57C338951E4B4E5400A5F230 /* VA05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C338941E4B4E5400A5F230 /* VA05.cpp */; };
+		57C338971E4B64F300A5F230 /* DyV01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C338961E4B64F300A5F230 /* DyV01.cpp */; };
 		57D462BF1E413BF300231B37 /* va01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57D462BE1E413BF300231B37 /* va01.cpp */; };
 		57E0F5D01E34FB8900FD00E2 /* Feb2015.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E0F5CF1E34FB8900FD00E2 /* Feb2015.cpp */; };
 		57E0F5D21E37BDAB00FD00E2 /* DyV03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E0F5D11E37BDAB00FD00E2 /* DyV03.cpp */; };
@@ -71,6 +73,8 @@
 		57C3388E1E4B2B0700A5F230 /* Rec02- A19 Número complementario.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Rec02- A19 Número complementario.cpp"; sourceTree = "<group>"; };
 		57C3388F1E4B2B0700A5F230 /* Rec04-DG-E-23 FibonacciRecursivo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Rec04-DG-E-23 FibonacciRecursivo.cpp"; sourceTree = "<group>"; };
 		57C338921E4B309E00A5F230 /* va03 DG-E-33-VA Funcionarios Sin Estimacion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "va03 DG-E-33-VA Funcionarios Sin Estimacion.cpp"; sourceTree = "<group>"; };
+		57C338941E4B4E5400A5F230 /* VA05.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VA05.cpp; sourceTree = "<group>"; };
+		57C338961E4B64F300A5F230 /* DyV01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DyV01.cpp; sourceTree = "<group>"; };
 		57D462BE1E413BF300231B37 /* va01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = va01.cpp; sourceTree = "<group>"; };
 		57E0F5CF1E34FB8900FD00E2 /* Feb2015.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Feb2015.cpp; sourceTree = "<group>"; };
 		57E0F5D11E37BDAB00FD00E2 /* DyV03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DyV03.cpp; sourceTree = "<group>"; };
@@ -122,8 +126,10 @@
 		57B0D0441DD5D9F4004ECD22 /* EDA */ = {
 			isa = PBXGroup;
 			children = (
+				57C338961E4B64F300A5F230 /* DyV01.cpp */,
 				571E0CEF1E2CF6AC002CB741 /* DyV02.cpp */,
 				57E0F5D11E37BDAB00FD00E2 /* DyV03.cpp */,
+				576DBB4C1E396A10008BDC3C /* DyV04.cpp */,
 				57A745481E0B065E002A9F09 /* ExamenLeila.cpp */,
 				57E0F5CF1E34FB8900FD00E2 /* Feb2015.cpp */,
 				575FC5651E31008C00977275 /* Feb2016.cpp */,
@@ -139,21 +145,21 @@
 				576F87421DD9CED300839B03 /* iter12 Pattern Matching.cpp */,
 				57F0A7CD1E0203A10064987C /* iter13- B-01 Temperaturas extremas.cpp */,
 				57F0A7CE1E0203A10064987C /* iter14- DG-E-08- Secuencia creciente II.cpp */,
-				57C3388E1E4B2B0700A5F230 /* Rec02- A19 Número complementario.cpp */,
-				57C3388F1E4B2B0700A5F230 /* Rec04-DG-E-23 FibonacciRecursivo.cpp */,
 				57F0A7CF1E0203A10064987C /* iter15- D-P2 Interpares.cpp */,
+				57C3388E1E4B2B0700A5F230 /* Rec02- A19 Número complementario.cpp */,
 				57F0A7D21E0203A10064987C /* rec03- Hotel Pico.cpp */,
+				57C3388F1E4B2B0700A5F230 /* Rec04-DG-E-23 FibonacciRecursivo.cpp */,
 				57E9F51C1DFDB38F00BE3579 /* rec05-DG-E-24-CombinatorioRecursivo.cpp */,
 				57F0A7D31E0203A10064987C /* Rec06- Polidivisibles.cpp */,
 				57864AE71E017D2F00BE4777 /* Rec07-Moviles.cpp */,
 				575E826C1E01FFC8006E6D4C /* Rec08.cpp */,
 				5786436D1E02D6D5006A18B1 /* Rec10.cpp */,
-				576DBB4C1E396A10008BDC3C /* DyV04.cpp */,
 				57D462BE1E413BF300231B37 /* va01.cpp */,
 				57C338881E4B2AEC00A5F230 /* va02 B-08 Cifras y operadores.cpp */,
-				57C338891E4B2AEC00A5F230 /* va05 DG-E-34 Pepe Casanova.cpp */,
-				57C3388A1E4B2AEC00A5F230 /* va06 A34 Compra de la semana.cpp */,
 				57C338921E4B309E00A5F230 /* va03 DG-E-33-VA Funcionarios Sin Estimacion.cpp */,
+				57C338891E4B2AEC00A5F230 /* va05 DG-E-34 Pepe Casanova.cpp */,
+				57C338941E4B4E5400A5F230 /* VA05.cpp */,
+				57C3388A1E4B2AEC00A5F230 /* va06 A34 Compra de la semana.cpp */,
 			);
 			path = EDA;
 			sourceTree = "<group>";
@@ -232,12 +238,14 @@
 				57C338931E4B309E00A5F230 /* va03 DG-E-33-VA Funcionarios Sin Estimacion.cpp in Sources */,
 				57EBB4941DD6A60500569D1A /* iter4 A03-Colones.cpp in Sources */,
 				57E0F5D21E37BDAB00FD00E2 /* DyV03.cpp in Sources */,
+				57C338951E4B4E5400A5F230 /* VA05.cpp in Sources */,
 				57E9F51D1DFDB38F00BE3579 /* rec05-DG-E-24-CombinatorioRecursivo.cpp in Sources */,
 				576F87431DD9CED300839B03 /* iter12 Pattern Matching.cpp in Sources */,
 				57F0A7DA1E0203A10064987C /* iter08 DG-E-02-Comprobar particion.cpp in Sources */,
 				57C338911E4B2B0700A5F230 /* Rec04-DG-E-23 FibonacciRecursivo.cpp in Sources */,
 				57F0A7DD1E0203A10064987C /* iter14- DG-E-08- Secuencia creciente II.cpp in Sources */,
 				576DBB4D1E396A10008BDC3C /* DyV04.cpp in Sources */,
+				57C338971E4B64F300A5F230 /* DyV01.cpp in Sources */,
 				57864AE81E017D2F00BE4777 /* Rec07-Moviles.cpp in Sources */,
 				57C3388C1E4B2AEC00A5F230 /* va05 DG-E-34 Pepe Casanova.cpp in Sources */,
 				57F0A7E11E0203A10064987C /* Rec06- Polidivisibles.cpp in Sources */,
