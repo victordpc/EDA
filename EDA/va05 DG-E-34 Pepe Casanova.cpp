@@ -37,7 +37,7 @@
 //    return ( restanteA >= 0
 //            && restanteB >= 0
 //            )
-//    && (solucion + maxPuntuacion) > mejorSolucion;
+//    && (solucion + maxPuntuacion) >= mejorSolucion;
 //}
 //
 //
@@ -215,9 +215,9 @@
 //}
 //
 //
-//
-//
-//
+////
+////
+////
 //////
 //////  va05.cpp
 //////  EDA
@@ -356,4 +356,4 @@
 ////        cin>>v[i];
 ////    }
 ////}
-////
+//
