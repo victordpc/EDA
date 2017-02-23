@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		571110AD1E4CEAE6009DF14B /* VA04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 571110AC1E4CEAE6009DF14B /* VA04.cpp */; };
 		571E0CF01E2CF6AC002CB741 /* DyV02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 571E0CEF1E2CF6AC002CB741 /* DyV02.cpp */; };
 		575E826D1E01FFC8006E6D4C /* Rec08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575E826C1E01FFC8006E6D4C /* Rec08.cpp */; };
 		575FC5661E31008C00977275 /* Feb2016.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575FC5651E31008C00977275 /* Feb2016.cpp */; };
@@ -57,6 +58,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		571110AC1E4CEAE6009DF14B /* VA04.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VA04.cpp; sourceTree = "<group>"; };
 		571E0CEF1E2CF6AC002CB741 /* DyV02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DyV02.cpp; sourceTree = "<group>"; };
 		575E826C1E01FFC8006E6D4C /* Rec08.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rec08.cpp; sourceTree = "<group>"; };
 		575FC5651E31008C00977275 /* Feb2016.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Feb2016.cpp; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				57C338891E4B2AEC00A5F230 /* va05 DG-E-34 Pepe Casanova.cpp */,
 				57C338941E4B4E5400A5F230 /* VA05.cpp */,
 				57C3388A1E4B2AEC00A5F230 /* va06 A34 Compra de la semana.cpp */,
+				571110AC1E4CEAE6009DF14B /* VA04.cpp */,
 			);
 			path = EDA;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571110AD1E4CEAE6009DF14B /* VA04.cpp in Sources */,
 				57E0F5D01E34FB8900FD00E2 /* Feb2015.cpp in Sources */,
 				5786436E1E02D6D5006A18B1 /* Rec10.cpp in Sources */,
 				57F0A7D81E0203A10064987C /* iter06 DG-E-07-Secuencia creciente.cpp in Sources */,
