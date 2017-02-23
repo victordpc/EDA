@@ -2,6 +2,11 @@
 #ifndef SETOFINTS1_H_
 #define SETOFINTS1_H_
 
+#include "Error.h"
+#include <iostream>
+
+using namespace std;
+
 class SetOfInts1 {
 	// Conjuntos de enteros representados como vectores no ordenados y con repeticiones
 	private:

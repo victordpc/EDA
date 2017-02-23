@@ -30,6 +30,22 @@ void SetOfInts2::add(int x) throw (Error) {
 	}
 }
 
+bool SetOfInts2::operator==(const SetOfInts2& set) const {
+    bool resultado=true;
+    int pos=0;
+    
+    if(set.size!= size)
+        return false;
+    
+    for (int i=0; i < size; i++) {
+        linSearch(elems[i],0,size,resultado,pos);
+        if (!resultado)
+            return false;
+    }
+    
+    return resultado;
+}
+
 void SetOfInts2::remove(int x){
 	bool found;
 	int pos;

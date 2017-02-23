@@ -5,14 +5,23 @@ using namespace std;
 #include "Date1A.h"
 #include "Date1B.h"
 #include "Date2.h"
-#include "Date3.h"
+//#include "Date3.h"
 #include "Date4.h"
 
-void testDate1(){
+void testDate1A(){
 	TDate1A date = newDate1A(31,12,1981);
 	TDate1A date_p = incr(incr(incr(date)));
-	print(date_p);
+    print(date);
+    print(date_p);
 	cout << diff(date_p,date);
+}
+
+void testDate1B(){
+    TDate1B date = newDate1B(31,12,1981);
+    TDate1B date_p = incr(incr(incr(date)));
+    print(date);
+    print(date_p);
+    cout << diff(date_p,date);
 }
 
 void testDate2(){
@@ -23,13 +32,13 @@ void testDate2(){
 	cout << date_p.diff(date);
 }
 
-void testDate3(){
-	TDate3 date(31,12,1981);
-	TDate3 date_p = date;
-	date_p += 5;
-	date_p.print();
-	cout << date_p.diff(date);
-}
+//void testDate3(){
+//	TDate3 date(31,12,1981);
+//	TDate3 date_p = date;
+//	date_p += 5;
+//	date_p.print();
+//	cout << date_p.diff(date);
+//}
 
 void testDate4(){
 	TDate4 date(31,12,1981);

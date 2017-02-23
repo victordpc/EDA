@@ -2,6 +2,10 @@
 #ifndef SETOFINTS3_H_
 #define SETOFINTS3_H_
 
+#include "Error.h"
+#include <iostream>
+
+using namespace std;
 
 class SetOfInts3 {
 	// Conjuntos de enteros representados como vectores ordenados sin repeticiones
@@ -25,6 +29,7 @@ class SetOfInts3 {
 		void remove(int x);
 		friend istream& operator>>(istream& sIn,SetOfInts3& set);
 		friend ostream& operator<<(ostream& sOut,SetOfInts3& set);
+        bool operator==(const SetOfInts3& set) const;
 };
 
 #endif /* SETOFINTS3_H_ */

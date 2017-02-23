@@ -2,6 +2,11 @@
 #ifndef SETOFInts2_H_
 #define SETOFInts2_H_
 
+#include "Error.h"
+#include <iostream>
+
+using namespace std;
+
 class SetOfInts2 {
 	// Conjuntos de enteros representados como un vector no ordenado sin repeticiones
 	private:
@@ -21,6 +26,7 @@ class SetOfInts2 {
 		void remove(int x);
 		friend istream& operator>>(istream& sIn,SetOfInts2& set);
 		friend ostream& operator<<(ostream& sOut,SetOfInts2& set);
+        bool operator==(const SetOfInts2& set) const;
 };
 
 #endif /* SETOFInts2_H_ */
