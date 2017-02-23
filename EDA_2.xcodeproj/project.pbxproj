@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57DB61EB1E5EFF4E00354F54 /* AuxiliaryFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57DB61D71E5EFF4E00354F54 /* AuxiliaryFuncs.cpp */; };
+		57DB61EC1E5EFF4E00354F54 /* AuxiliaryFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DB61D81E5EFF4E00354F54 /* AuxiliaryFuncs.h */; };
+		57DB61ED1E5EFF4E00354F54 /* Date1A.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57DB61D91E5EFF4E00354F54 /* Date1A.cpp */; };
+		57DB61EE1E5EFF4E00354F54 /* Date1A.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DB61DA1E5EFF4E00354F54 /* Date1A.h */; };
+		57DB61EF1E5EFF4E00354F54 /* Date1B.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57DB61DB1E5EFF4E00354F54 /* Date1B.cpp */; };
+		57DB61F01E5EFF4E00354F54 /* Date1B.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DB61DC1E5EFF4E00354F54 /* Date1B.h */; };
+		57DB61F11E5EFF4E00354F54 /* Date2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57DB61DD1E5EFF4E00354F54 /* Date2.cpp */; };
+		57DB61F21E5EFF4E00354F54 /* Date2.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DB61DE1E5EFF4E00354F54 /* Date2.h */; };
+		57DB61F31E5EFF4E00354F54 /* Date4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57DB61DF1E5EFF4E00354F54 /* Date4.cpp */; };
+		57DB61F41E5EFF4E00354F54 /* Date4.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DB61E01E5EFF4E00354F54 /* Date4.h */; };
+		57DB61F51E5EFF4E00354F54 /* DateTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57DB61E11E5EFF4E00354F54 /* DateTests.cpp */; };
+		57DB61F61E5EFF4E00354F54 /* DateTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DB61E21E5EFF4E00354F54 /* DateTests.h */; };
+		57DB61F71E5EFF4E00354F54 /* Error.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DB61E31E5EFF4E00354F54 /* Error.h */; };
+		57DB61F81E5EFF4E00354F54 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57DB61E41E5EFF4E00354F54 /* Main.cpp */; };
+		57DB61F91E5EFF4E00354F54 /* SetOfInts1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57DB61E51E5EFF4E00354F54 /* SetOfInts1.cpp */; };
+		57DB61FA1E5EFF4E00354F54 /* SetOfInts1.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DB61E61E5EFF4E00354F54 /* SetOfInts1.h */; };
+		57DB61FB1E5EFF4E00354F54 /* SetOfInts2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57DB61E71E5EFF4E00354F54 /* SetOfInts2.cpp */; };
+		57DB61FC1E5EFF4E00354F54 /* SetOfInts2.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DB61E81E5EFF4E00354F54 /* SetOfInts2.h */; };
+		57DB61FD1E5EFF4E00354F54 /* SetOfInts3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57DB61E91E5EFF4E00354F54 /* SetOfInts3.cpp */; };
+		57DB61FE1E5EFF4E00354F54 /* SetOfInts3.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DB61EA1E5EFF4E00354F54 /* SetOfInts3.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		575297BF1E5EFDCF009D1E15 /* libEDA_2.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libEDA_2.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DB61D71E5EFF4E00354F54 /* AuxiliaryFuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AuxiliaryFuncs.cpp; sourceTree = "<group>"; };
+		57DB61D81E5EFF4E00354F54 /* AuxiliaryFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuxiliaryFuncs.h; sourceTree = "<group>"; };
+		57DB61D91E5EFF4E00354F54 /* Date1A.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Date1A.cpp; sourceTree = "<group>"; };
+		57DB61DA1E5EFF4E00354F54 /* Date1A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date1A.h; sourceTree = "<group>"; };
+		57DB61DB1E5EFF4E00354F54 /* Date1B.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Date1B.cpp; sourceTree = "<group>"; };
+		57DB61DC1E5EFF4E00354F54 /* Date1B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date1B.h; sourceTree = "<group>"; };
+		57DB61DD1E5EFF4E00354F54 /* Date2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Date2.cpp; sourceTree = "<group>"; };
+		57DB61DE1E5EFF4E00354F54 /* Date2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date2.h; sourceTree = "<group>"; };
+		57DB61DF1E5EFF4E00354F54 /* Date4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Date4.cpp; sourceTree = "<group>"; };
+		57DB61E01E5EFF4E00354F54 /* Date4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date4.h; sourceTree = "<group>"; };
+		57DB61E11E5EFF4E00354F54 /* DateTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateTests.cpp; sourceTree = "<group>"; };
+		57DB61E21E5EFF4E00354F54 /* DateTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTests.h; sourceTree = "<group>"; };
+		57DB61E31E5EFF4E00354F54 /* Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
+		57DB61E41E5EFF4E00354F54 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		57DB61E51E5EFF4E00354F54 /* SetOfInts1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetOfInts1.cpp; sourceTree = "<group>"; };
+		57DB61E61E5EFF4E00354F54 /* SetOfInts1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetOfInts1.h; sourceTree = "<group>"; };
+		57DB61E71E5EFF4E00354F54 /* SetOfInts2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetOfInts2.cpp; sourceTree = "<group>"; };
+		57DB61E81E5EFF4E00354F54 /* SetOfInts2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetOfInts2.h; sourceTree = "<group>"; };
+		57DB61E91E5EFF4E00354F54 /* SetOfInts3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetOfInts3.cpp; sourceTree = "<group>"; };
+		57DB61EA1E5EFF4E00354F54 /* SetOfInts3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetOfInts3.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		575297BC1E5EFDCF009D1E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		575297B61E5EFDCF009D1E15 = {
+			isa = PBXGroup;
+			children = (
+				575297C11E5EFDCF009D1E15 /* EDA_2 */,
+				575297C01E5EFDCF009D1E15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		575297C01E5EFDCF009D1E15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				575297BF1E5EFDCF009D1E15 /* libEDA_2.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		575297C11E5EFDCF009D1E15 /* EDA_2 */ = {
+			isa = PBXGroup;
+			children = (
+				57DB61D71E5EFF4E00354F54 /* AuxiliaryFuncs.cpp */,
+				57DB61D81E5EFF4E00354F54 /* AuxiliaryFuncs.h */,
+				57DB61D91E5EFF4E00354F54 /* Date1A.cpp */,
+				57DB61DA1E5EFF4E00354F54 /* Date1A.h */,
+				57DB61DB1E5EFF4E00354F54 /* Date1B.cpp */,
+				57DB61DC1E5EFF4E00354F54 /* Date1B.h */,
+				57DB61DD1E5EFF4E00354F54 /* Date2.cpp */,
+				57DB61DE1E5EFF4E00354F54 /* Date2.h */,
+				57DB61DF1E5EFF4E00354F54 /* Date4.cpp */,
+				57DB61E01E5EFF4E00354F54 /* Date4.h */,
+				57DB61E11E5EFF4E00354F54 /* DateTests.cpp */,
+				57DB61E21E5EFF4E00354F54 /* DateTests.h */,
+				57DB61E31E5EFF4E00354F54 /* Error.h */,
+				57DB61E41E5EFF4E00354F54 /* Main.cpp */,
+				57DB61E51E5EFF4E00354F54 /* SetOfInts1.cpp */,
+				57DB61E61E5EFF4E00354F54 /* SetOfInts1.h */,
+				57DB61E71E5EFF4E00354F54 /* SetOfInts2.cpp */,
+				57DB61E81E5EFF4E00354F54 /* SetOfInts2.h */,
+				57DB61E91E5EFF4E00354F54 /* SetOfInts3.cpp */,
+				57DB61EA1E5EFF4E00354F54 /* SetOfInts3.h */,
+			);
+			name = EDA_2;
+			path = "EDA-2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		575297BD1E5EFDCF009D1E15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DB61FE1E5EFF4E00354F54 /* SetOfInts3.h in Headers */,
+				57DB61EE1E5EFF4E00354F54 /* Date1A.h in Headers */,
+				57DB61FC1E5EFF4E00354F54 /* SetOfInts2.h in Headers */,
+				57DB61F41E5EFF4E00354F54 /* Date4.h in Headers */,
+				57DB61FA1E5EFF4E00354F54 /* SetOfInts1.h in Headers */,
+				57DB61F21E5EFF4E00354F54 /* Date2.h in Headers */,
+				57DB61EC1E5EFF4E00354F54 /* AuxiliaryFuncs.h in Headers */,
+				57DB61F61E5EFF4E00354F54 /* DateTests.h in Headers */,
+				57DB61F01E5EFF4E00354F54 /* Date1B.h in Headers */,
+				57DB61F71E5EFF4E00354F54 /* Error.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		575297BE1E5EFDCF009D1E15 /* EDA_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575297CA1E5EFDCF009D1E15 /* Build configuration list for PBXNativeTarget "EDA_2" */;
+			buildPhases = (
+				575297BB1E5EFDCF009D1E15 /* Sources */,
+				575297BC1E5EFDCF009D1E15 /* Frameworks */,
+				575297BD1E5EFDCF009D1E15 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EDA_2;
+			productName = "EDA-2";
+			productReference = 575297BF1E5EFDCF009D1E15 /* libEDA_2.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		575297B71E5EFDCF009D1E15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Victor del Pino Castilla";
+				TargetAttributes = {
+					575297BE1E5EFDCF009D1E15 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 575297BA1E5EFDCF009D1E15 /* Build configuration list for PBXProject "EDA_2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 575297B61E5EFDCF009D1E15;
+			productRefGroup = 575297C01E5EFDCF009D1E15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				575297BE1E5EFDCF009D1E15 /* EDA_2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		575297BB1E5EFDCF009D1E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DB61EF1E5EFF4E00354F54 /* Date1B.cpp in Sources */,
+				57DB61F81E5EFF4E00354F54 /* Main.cpp in Sources */,
+				57DB61EB1E5EFF4E00354F54 /* AuxiliaryFuncs.cpp in Sources */,
+				57DB61FD1E5EFF4E00354F54 /* SetOfInts3.cpp in Sources */,
+				57DB61F11E5EFF4E00354F54 /* Date2.cpp in Sources */,
+				57DB61FB1E5EFF4E00354F54 /* SetOfInts2.cpp in Sources */,
+				57DB61F51E5EFF4E00354F54 /* DateTests.cpp in Sources */,
+				57DB61F31E5EFF4E00354F54 /* Date4.cpp in Sources */,
+				57DB61ED1E5EFF4E00354F54 /* Date1A.cpp in Sources */,
+				57DB61F91E5EFF4E00354F54 /* SetOfInts1.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		575297C81E5EFDCF009D1E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		575297C91E5EFDCF009D1E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		575297CB1E5EFDCF009D1E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		575297CC1E5EFDCF009D1E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		575297BA1E5EFDCF009D1E15 /* Build configuration list for PBXProject "EDA_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575297C81E5EFDCF009D1E15 /* Debug */,
+				575297C91E5EFDCF009D1E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575297CA1E5EFDCF009D1E15 /* Build configuration list for PBXNativeTarget "EDA_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575297CB1E5EFDCF009D1E15 /* Debug */,
+				575297CC1E5EFDCF009D1E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 575297B71E5EFDCF009D1E15 /* Project object */;
+}
