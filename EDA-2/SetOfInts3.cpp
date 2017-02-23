@@ -74,6 +74,17 @@ ostream& operator<<(ostream& sOut, SetOfInts3& set) {
 	return sOut;
 }
 
+bool SetOfInts3::operator==(const SetOfInts3& set) const{
+    if(set.size!= size)
+        return false;
+    
+    for (int i=0; i < size; i++) {
+        if (elems[i]!=set.elems[i])
+            return false;
+    }
+    
+    return true;
+}
 
 // Private methods
 

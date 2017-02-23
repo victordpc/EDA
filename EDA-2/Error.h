@@ -2,6 +2,10 @@
 #ifndef ERROR_H_
 #define ERROR_H_
 
+#include <string>
+
+using namespace std;
+
 class Error{
 	private:
 		string message;

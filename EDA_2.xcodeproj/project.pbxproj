@@ -27,6 +27,8 @@
 		57DB61FC1E5EFF4E00354F54 /* SetOfInts2.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DB61E81E5EFF4E00354F54 /* SetOfInts2.h */; };
 		57DB61FD1E5EFF4E00354F54 /* SetOfInts3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57DB61E91E5EFF4E00354F54 /* SetOfInts3.cpp */; };
 		57DB61FE1E5EFF4E00354F54 /* SetOfInts3.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DB61EA1E5EFF4E00354F54 /* SetOfInts3.h */; };
+		57DB62011E5F087600354F54 /* SetTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57DB61FF1E5F087600354F54 /* SetTests.cpp */; };
+		57DB62021E5F087600354F54 /* SetTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DB62001E5F087600354F54 /* SetTests.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		57DB61E81E5EFF4E00354F54 /* SetOfInts2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetOfInts2.h; sourceTree = "<group>"; };
 		57DB61E91E5EFF4E00354F54 /* SetOfInts3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetOfInts3.cpp; sourceTree = "<group>"; };
 		57DB61EA1E5EFF4E00354F54 /* SetOfInts3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetOfInts3.h; sourceTree = "<group>"; };
+		57DB61FF1E5F087600354F54 /* SetTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetTests.cpp; sourceTree = "<group>"; };
+		57DB62001E5F087600354F54 /* SetTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetTests.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				57DB61E81E5EFF4E00354F54 /* SetOfInts2.h */,
 				57DB61E91E5EFF4E00354F54 /* SetOfInts3.cpp */,
 				57DB61EA1E5EFF4E00354F54 /* SetOfInts3.h */,
+				57DB61FF1E5F087600354F54 /* SetTests.cpp */,
+				57DB62001E5F087600354F54 /* SetTests.h */,
 			);
 			name = EDA_2;
 			path = "EDA-2";
@@ -117,6 +123,7 @@
 			files = (
 				57DB61FE1E5EFF4E00354F54 /* SetOfInts3.h in Headers */,
 				57DB61EE1E5EFF4E00354F54 /* Date1A.h in Headers */,
+				57DB62021E5F087600354F54 /* SetTests.h in Headers */,
 				57DB61FC1E5EFF4E00354F54 /* SetOfInts2.h in Headers */,
 				57DB61F41E5EFF4E00354F54 /* Date4.h in Headers */,
 				57DB61FA1E5EFF4E00354F54 /* SetOfInts1.h in Headers */,
@@ -194,6 +201,7 @@
 				57DB61F51E5EFF4E00354F54 /* DateTests.cpp in Sources */,
 				57DB61F31E5EFF4E00354F54 /* Date4.cpp in Sources */,
 				57DB61ED1E5EFF4E00354F54 /* Date1A.cpp in Sources */,
+				57DB62011E5F087600354F54 /* SetTests.cpp in Sources */,
 				57DB61F91E5EFF4E00354F54 /* SetOfInts1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

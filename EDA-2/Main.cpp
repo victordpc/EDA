@@ -6,9 +6,10 @@ int main(){
 	//testSmallSet();
 	//testSetOfInts();
 	//testGenericSet();
-	//testDate1();
+    
+    testDate1A();
+    testDate1B();
 	testDate2();
-	//testDate3();
-	//testDate4();
+	testDate4();
 }
 
