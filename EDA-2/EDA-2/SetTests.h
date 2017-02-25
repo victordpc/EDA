@@ -17,6 +17,11 @@
 void testSmallSet();
 void testSetOfInts();
 void testGenericSet();
+void testCompareSet2();
+void testLessSet3();
+void testLessEqualSet3();
+void testGreaterSet3();
+void testGreaterEqualSet3();
 
 #endif /* SETTESTS_H */
 

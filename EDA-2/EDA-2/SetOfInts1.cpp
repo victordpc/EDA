@@ -1,7 +1,3 @@
-
-#include <iostream>
-using namespace std;
-
 #include "Error.h"
 #include "SetOfInts1.h"
 
@@ -67,6 +63,19 @@ ostream& operator<<(ostream& sOut, SetOfInts1& set) {
 	return sOut;
 }
 
+bool SetOfInts1::operator==(const SetOfInts1& set) const {
+    bool resultado=false;
+    int pos=0;
+    
+    if(set.size == size)
+    {
+        resultado = true;
+        for (int i = 0; i < size && resultado; i++) {
+            linSearch(set.elems[i], 0, size, resultado, pos);
+        }
+    }
+    return resultado;
+}
 
 // Private methods
 
