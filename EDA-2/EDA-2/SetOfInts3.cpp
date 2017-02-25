@@ -1,6 +1,3 @@
-#include <iostream>
-using namespace std;
-
 #include "Error.h"
 #include "SetOfInts3.h"
 
@@ -10,7 +7,6 @@ using namespace std;
 SetOfInts3::SetOfInts3() {
 	size = 0;
 }
-
 
 // Public methods
 
@@ -53,6 +49,23 @@ bool SetOfInts3::contains(int x) const {
 	return found;
 }
 
+int SetOfInts3::getSize() const{
+    return size;
+}
+
+//    Coste constante
+int SetOfInts3::getMax() const throw (Error) {
+    if (isEmpty())
+        throw Error("Cannot remove");
+    return elems[size-1];
+}
+
+//    Coste constante
+void SetOfInts3::removeMax(){
+    if (size > 0)
+        size--;
+}
+
 istream& operator>>(istream& sIn, SetOfInts3& set) {
 	int n;
 	int d;
@@ -66,24 +79,108 @@ istream& operator>>(istream& sIn, SetOfInts3& set) {
 }
 
 ostream& operator<<(ostream& sOut, SetOfInts3& set) {
-	sOut << "{";
+//	sOut << "{";
 	for (int i = 0; i < set.size-1; i++)
-		sOut << set.elems[i] << ",";
+//		sOut << set.elems[i] << ",";
+        sOut << set.elems[i] << " ";
 	if (set.size > 0) sOut << set.elems[set.size-1];
-	sOut << "}";
+//	sOut << "}";
 	return sOut;
 }
 
+//  Coste lineal en el peor caso
 bool SetOfInts3::operator==(const SetOfInts3& set) const{
-    if(set.size!= size)
-        return false;
+    bool resultado = false;
     
-    for (int i=0; i < size; i++) {
-        if (elems[i]!=set.elems[i])
-            return false;
+    if(set.size == size)
+    {
+        resultado = true;
+        for (int i=0; i < size && resultado; i++)
+            if (elems[i]!=set.elems[i])
+                resultado = false;
     }
     
-    return true;
+    return resultado;
+}
+
+//    Coste (m) en el peor caso ( m = número de elementos de la parte derecha )
+bool SetOfInts3::operator<(const SetOfInts3& set) const {
+    bool resultado = false;
+    int pos = 0, j = 0;
+    
+    if (size < set.size) {
+        while(pos < size && j < set.size) {
+            if(elems[pos] == set.elems[j]) {
+                pos++;
+                j++;
+            } else {
+                j++;
+            }
+        }
+        resultado = (pos == size);
+    }
+    
+    return resultado;
+}
+
+//    Coste (m) en el peor caso ( m = número de elementos de la parte derecha )
+bool SetOfInts3::operator<=(const SetOfInts3& set) const {
+    bool resultado = false;
+    int pos = 0, j = 0;
+    
+    if (size <= set.size) {
+        while(pos < size && j < set.size) {
+            if(elems[pos] == set.elems[j]) {
+                pos++;
+                j++;
+            } else {
+                j++;
+            }
+        }
+        resultado = (pos == size);
+    }
+    
+    return resultado;
+}
+
+//    Coste (n) en el peor caso ( n = número de elementos de la parte izquierda )
+bool SetOfInts3::operator>(const SetOfInts3& set) const{
+    bool resultado = false;
+    int pos = 0, j = 0;
+    
+    if(size > set.size){
+        while(pos < size && j < set.size) {
+            if(elems[pos] == set.elems[j]) {
+                pos++;
+                j++;
+            } else {
+                pos++;
+            }
+        }
+        resultado = (j == set.size);
+    }
+    
+    return resultado;
+}
+
+//    Coste (n) en el peor caso ( n = número de elementos de la parte izquierda )
+bool SetOfInts3::operator>=(const SetOfInts3& set) const{
+    bool resultado = false;
+    int pos = 0, j = 0;
+    
+    if(size >= set.size){
+        while(pos < size && j < set.size) {
+            if(elems[pos] == set.elems[j]) {
+                pos++;
+                j++;
+            } else {
+                pos++;
+            }
+        }
+        resultado = (j == set.size);
+    }
+    
+    return resultado;
 }
 
 // Private methods

@@ -9,20 +9,6 @@
 #include "SetTests.h"
 
 void testSmallSet(){
-    //SetOfInts1 sTest1 = SetOfInts1();
-    SetOfInts2 sTest2 = SetOfInts2();
-    SetOfInts2 sTest2_1 = SetOfInts2();
-    //SetOfInts3 sTest3 = SetOfInts3();
-    
-    cin >> sTest2;
-    cin >> sTest2_1;
-    
-    if(sTest2 == sTest2_1)
-        cout << "iguales";
-    else
-        cout << "diferentes";
-    
-    
 }
 
 void testSetOfInts(){
@@ -33,15 +19,100 @@ void testGenericSet(){
     
 }
 
+void testCompareSet1(){
+    SetOfInts1 sTest1_0 = SetOfInts1();
+    SetOfInts1 sTest1_1 = SetOfInts1();
+    
+    cin >> sTest1_0;
+    cin >> sTest1_1;
+    
+    if(sTest1_0 == sTest1_1)
+        cout << "iguales";
+    else
+        cout << "diferentes";
+    cout << endl;
+}
 
-/*
- 
- SetOfInts3();
- bool isEmpty() const;
- void add(int x) throw (Error);
- bool contains(int x) const;
- void remove(int x);
- friend istream& operator>>(istream& sIn,SetOfInts3& set);
- friend ostream& operator<<(ostream& sOut,SetOfInts3& set);
-*/
+void testCompareSet2(){
+    SetOfInts2 sTest2_0 = SetOfInts2();
+    SetOfInts2 sTest2_1 = SetOfInts2();
+    
+    cin >> sTest2_0;
+    cin >> sTest2_1;
+    
+    if(sTest2_0 == sTest2_1)
+        cout << "iguales";
+    else
+        cout << "diferentes";
+    cout << endl;
+}
 
+void testCompareSet3(){
+    SetOfInts3 sTest3_0 = SetOfInts3();
+    SetOfInts3 sTest3_1 = SetOfInts3();
+    
+    cin >> sTest3_0;
+    cin >> sTest3_1;
+    
+    if(sTest3_0 == sTest3_1)
+        cout << "iguales";
+    else
+        cout << "diferentes";
+    cout << endl;
+}
+
+void testLessSet3(){
+    SetOfInts3 sTest3_0 = SetOfInts3();
+    SetOfInts3 sTest3_1 = SetOfInts3();
+    
+    cin >> sTest3_0;
+    cin >> sTest3_1;
+    
+    if(sTest3_0 < sTest3_1)
+        cout << "contiene";
+    else
+        cout << "no contiene";
+    cout << endl;
+}
+
+void testLessEqualSet3(){
+    SetOfInts3 sTest3_0 = SetOfInts3();
+    SetOfInts3 sTest3_1 = SetOfInts3();
+    
+    cin >> sTest3_0;
+    cin >> sTest3_1;
+    
+    if(sTest3_0 <= sTest3_1)
+        cout << "contiene";
+    else
+        cout << "no contiene";
+    cout << endl;
+}
+
+void testGreaterSet3(){
+    SetOfInts3 sTest3_0 = SetOfInts3();
+    SetOfInts3 sTest3_1 = SetOfInts3();
+    
+    cin >> sTest3_0;
+    cin >> sTest3_1;
+    
+    if(sTest3_0 > sTest3_1)
+        cout << "contiene";
+    else
+        cout << "no contiene";
+    cout << endl;
+}
+
+void testGreaterEqualSet3(){
+    SetOfInts3 sTest3_0 = SetOfInts3();
+    SetOfInts3 sTest3_1 = SetOfInts3();
+    
+    cin >> sTest3_0;
+    cin >> sTest3_1;
+    
+    if(sTest3_0 >= sTest3_1)
+        cout << "contiene";
+    else
+        cout << "no contiene";
+    cout << endl;
+}

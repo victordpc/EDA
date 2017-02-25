@@ -88,7 +88,7 @@
 		57005AA21E5F496A0063CD1D /* EDA-2 */ = {
 			isa = PBXGroup;
 			children = (
-				57005AC91E5F49CC0063CD1D /* Main.cpp */,
+				57005AAA1E5F497E0063CD1D /* AuxiliaryFuncs.cpp */,
 				57005AAC1E5F49BD0063CD1D /* AuxiliaryFuncs.h */,
 				57005AAD1E5F49BD0063CD1D /* Date1A.cpp */,
 				57005AAE1E5F49BD0063CD1D /* Date1A.h */,
@@ -101,6 +101,7 @@
 				57005AB51E5F49BD0063CD1D /* DateTests.cpp */,
 				57005AB61E5F49BD0063CD1D /* DateTests.h */,
 				57005AB71E5F49BD0063CD1D /* Error.h */,
+				57005AC91E5F49CC0063CD1D /* Main.cpp */,
 				57005AB81E5F49BD0063CD1D /* SetOfInts1.cpp */,
 				57005AB91E5F49BD0063CD1D /* SetOfInts1.h */,
 				57005ABA1E5F49BD0063CD1D /* SetOfInts2.cpp */,
@@ -109,7 +110,6 @@
 				57005ABD1E5F49BD0063CD1D /* SetOfInts3.h */,
 				57005ABE1E5F49BD0063CD1D /* SetTests.cpp */,
 				57005ABF1E5F49BD0063CD1D /* SetTests.h */,
-				57005AAA1E5F497E0063CD1D /* AuxiliaryFuncs.cpp */,
 			);
 			path = "EDA-2";
 			sourceTree = "<group>";
@@ -308,6 +308,7 @@
 				57005AA91E5F496A0063CD1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

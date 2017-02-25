@@ -26,6 +26,7 @@ class SetOfInts1 {
 		void remove(int x);
 		friend istream& operator>>(istream& sIn,SetOfInts1& set);
 		friend ostream& operator<<(ostream& sOut,SetOfInts1& set);
+        bool operator==(const SetOfInts1& set) const;
 };
 
 #endif /* SETOFINTS1_H_ */
