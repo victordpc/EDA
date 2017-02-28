@@ -75,6 +75,12 @@ bool SetOfInts1::operator==(const SetOfInts1& set) const {
         }
     }
     return resultado;
+    
+    // Ordenamos el vector this, quitando las repeticiones
+    
+    // Ordenamos el vector parámetro, quitando las repeticiones
+    
+    // Recorrido lineal comparando los dos arrays
 }
 
 // Private methods

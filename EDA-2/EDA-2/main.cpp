@@ -21,18 +21,21 @@ int main(){
 }
 
 void ejercicio1Tema7(){
-    int sizeSet = 0, valor = 0;
-    SetOfInts3 set = SetOfInts3();
+    int sizeSet = 0, valor = 0, n=0;
+    SetOfInts3 set;
     cin >> sizeSet;
     while (sizeSet != 0) {
+        n=sizeSet;
+        set = SetOfInts3();
         cin >> valor;
         while (valor != -1) {
+            
             set.add(valor);
+            
+            if(set.getSize() > sizeSet){
+                set.removeMax();
+            }
             cin >> valor;
-        }
-
-        for (int i = set.getSize()-sizeSet; i>0; i--) {
-            set.removeMax();
         }
 
         cout << set << endl;
@@ -41,8 +44,5 @@ void ejercicio1Tema7(){
         set = SetOfInts3();
     }
     
-    //    Escribe una funci´on (fuera del TAD) que dada una serie de n n´umeros enteros (en un array o vector),
-    //    encuentre los k n´umeros menores distintos, devolviendo el resultado en un conjunto SetOfInts3
-    //    (como par´ametro por referencia).
 }
 
