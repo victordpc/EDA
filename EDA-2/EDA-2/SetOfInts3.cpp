@@ -113,6 +113,8 @@ bool SetOfInts3::operator<(const SetOfInts3& set) const {
             if(elems[pos] == set.elems[j]) {
                 pos++;
                 j++;
+            }else if (elems[pos] < set.elems[j]){
+                j=set.size;
             } else {
                 j++;
             }

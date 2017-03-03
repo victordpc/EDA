@@ -56,6 +56,7 @@
 		57005ABE1E5F49BD0063CD1D /* SetTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetTests.cpp; sourceTree = "<group>"; };
 		57005ABF1E5F49BD0063CD1D /* SetTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetTests.h; sourceTree = "<group>"; };
 		57005AC91E5F49CC0063CD1D /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		57BE9E851E687C6100D413D7 /* Set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Set.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 				57005AB61E5F49BD0063CD1D /* DateTests.h */,
 				57005AB71E5F49BD0063CD1D /* Error.h */,
 				57005AC91E5F49CC0063CD1D /* Main.cpp */,
+				57BE9E851E687C6100D413D7 /* Set.h */,
 				57005AB81E5F49BD0063CD1D /* SetOfInts1.cpp */,
 				57005AB91E5F49BD0063CD1D /* SetOfInts1.h */,
 				57005ABA1E5F49BD0063CD1D /* SetOfInts2.cpp */,

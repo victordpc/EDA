@@ -29,7 +29,7 @@ void SetOfInts2::add(int x) throw (Error) {
 bool SetOfInts2::operator==(const SetOfInts2& set) const {
     bool resultado = false;
     int pos = 0;
-    
+
     if (set.size == size) {
         resultado = true;
         for (int i = 0; i < size && resultado; i++) {
@@ -37,6 +37,15 @@ bool SetOfInts2::operator==(const SetOfInts2& set) const {
         }
     }
     return resultado;
+
+    
+    // Ordenamos el array this en el mismo array dado
+    
+    // Ordenamos el array parámetro en el mismo array dado
+    
+    // Comparación lineal de los resultados
+    
+    
 }
 
 void SetOfInts2::remove(int x){
