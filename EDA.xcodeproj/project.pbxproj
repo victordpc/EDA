@@ -43,6 +43,7 @@
 		57F0A7DE1E0203A10064987C /* iter15- D-P2 Interpares.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7CF1E0203A10064987C /* iter15- D-P2 Interpares.cpp */; };
 		57F0A7E01E0203A10064987C /* rec03- Hotel Pico.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7D21E0203A10064987C /* rec03- Hotel Pico.cpp */; };
 		57F0A7E11E0203A10064987C /* Rec06- Polidivisibles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F0A7D31E0203A10064987C /* Rec06- Polidivisibles.cpp */; };
+		57FE66A31E69D1E600972479 /* C01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57FE66A21E69D1E600972479 /* C01.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +96,7 @@
 		57F0A7CF1E0203A10064987C /* iter15- D-P2 Interpares.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "iter15- D-P2 Interpares.cpp"; sourceTree = "<group>"; };
 		57F0A7D21E0203A10064987C /* rec03- Hotel Pico.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "rec03- Hotel Pico.cpp"; sourceTree = "<group>"; };
 		57F0A7D31E0203A10064987C /* Rec06- Polidivisibles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Rec06- Polidivisibles.cpp"; sourceTree = "<group>"; };
+		57FE66A21E69D1E600972479 /* C01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = C01.cpp; path = "EDA RafaMalo/C01.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		57B0D0391DD5D9F4004ECD22 = {
 			isa = PBXGroup;
 			children = (
+				57FE66A21E69D1E600972479 /* C01.cpp */,
 				57B0D04C1DD5DA3A004ECD22 /* plantilla.cpp */,
 				57B0D0441DD5D9F4004ECD22 /* EDA */,
 				57B0D0431DD5D9F4004ECD22 /* Products */,
@@ -230,6 +233,7 @@
 				57F0A7D81E0203A10064987C /* iter06 DG-E-07-Secuencia creciente.cpp in Sources */,
 				57F0A7E01E0203A10064987C /* rec03- Hotel Pico.cpp in Sources */,
 				57F0A7D51E0203A10064987C /* iter02 B-00 La lotería de la peña Atlética.cpp in Sources */,
+				57FE66A31E69D1E600972479 /* C01.cpp in Sources */,
 				57B0D04D1DD5DA3A004ECD22 /* plantilla.cpp in Sources */,
 				57F0A7D91E0203A10064987C /* iter07 A09-Soy Rico.cpp in Sources */,
 				57F0A7DB1E0203A10064987C /* iter09 particion.cpp in Sources */,
