@@ -10,36 +10,38 @@ using namespace std;
 
 template<class T>
 class Set {
-	// Conjuntos gen√©ricos representados mediante un array din√°mico ordenado sin repeticiones
-	private:
-		static const int DEFAULT_CAPACITY = 5;
+	// Conjuntos genÈricos representados mediante un array din·mico ordenado sin repeticiones
+private:
+	static const int DEFAULT_CAPACITY = 5;
 
-		T* elems;
-		int size;
-		int capacity;
+	T* elems;
+	int i,j;
+	int capacity;
 
-		bool isFull() const;
-		void binSearch(const T& x,bool& found,int& pos) const;
-		int binSearchAux(const T& x, int a, int b) const;
-		void shiftRightFrom(int i);
-		void shiftLeftFrom(int i);
-		void reallocate();
+	bool isFull() const;
+	void binSearch(const T& x, bool& found, int& pos) const;
+	int binSearchAux(const T& x, int a, int b) const;
+	void shiftRightFrom(int ini);
+	void shiftLeftFrom(int ini);
+	void shiftLeftFromTo(int ini, int fin);
+	void shiftRightFromTo(int ini, int fin);
+	void reallocate();
 
-	public:
-		Set(int initCapacity = DEFAULT_CAPACITY);
-		Set(const Set<T>& set);
-		~Set();
-		bool isEmpty() const;
-		void add(const T& x);
-		bool contains(const T& x) const;
-		void remove(const T& x);
-		void erase();
-		void write(ostream& sOut);
-		void read(istream& sIn);
-        void removeMax();
-        void removeMin();
-        T* getMax();
-        T* getMin();
+public:
+	Set(int initCapacity = DEFAULT_CAPACITY);
+	Set(const Set<T>& set);
+	~Set();
+	bool isEmpty() const;
+	void add(const T& x);
+	bool contains(const T& x) const;
+	void remove(const T& x);
+	void erase();
+	void write(ostream& sOut);
+	void read(istream& sIn);
+	void removeMax();
+	void removeMin();
+	const T &getMax();
+	const T &getMin();
 };
 
 
@@ -47,18 +49,19 @@ class Set {
 
 template<class T>
 Set<T>::Set(int initCapacity) {
-	size = 0;
+	i = j = 0;
 	capacity = initCapacity;
 	elems = new T[capacity];
 }
 
 template<class T>
 Set<T>::Set(const Set<T>& set) {
-	size = set.size;
+	i = set.i;
+	j = set.j;
 	capacity = set.capacity;
 	elems = new T[capacity];
-	for (int i = 0; i < size; i++)
-		elems[i] = set.elems[i];
+	for (int ii = i; ii <= j; ii++)
+		elems[ii] = set.elems[ii];
 }
 
 template<class T>
@@ -71,7 +74,7 @@ Set<T>::~Set() {
 
 template<class T>
 bool Set<T>::isEmpty() const{
-	return (size == 0);
+	return (i == j);
 }
 
 template<class T>
@@ -79,11 +82,13 @@ void Set<T>::add(const T& x){
 	bool found;
 	int pos;
 
-	binSearch(x,found,pos);
+	binSearch(x, found, pos);
 	if (!found){
-		shiftRightFrom(pos+1);
-		elems[pos+1] = x;
-		size++;
+		if (i > 0)
+			shiftLeftFromTo(--i, pos);
+		else
+			shiftRightFromTo(pos + 1, ++j);
+		elems[pos + 1] = x;
 		if (isFull()) reallocate();
 	}
 }
@@ -93,11 +98,12 @@ void Set<T>::remove(const T& x){
 	bool found;
 	int pos;
 
-	binSearch(x,found,pos);
+	binSearch(x, found, pos);
 	if (found) {
-		shiftLeftFrom(pos);
-		size--;
+		shiftLeftFromTo(pos,j--);
 	}
+	if (i == j) 
+		erase();
 }
 
 template<class T>
@@ -105,22 +111,22 @@ bool Set<T>::contains(const T& x) const {
 	bool found;
 	int pos;
 
-	binSearch(x,found,pos);
+	binSearch(x, found, pos);
 	return found;
 }
 
 template<class T>
 void Set<T>::erase(){
-	size = 0;
+	i= j = 0;
 }
 
 template<class T>
 void Set<T>::write(ostream& sOut){
-//	sOut << "{";
-	for (int i = 0; i < size-1; i++)
-		sOut << elems[i] << " ";
-	if (size > 0) sOut << elems[size-1];
-//	sOut << "}";
+	//	sOut << "{";
+	for (int ii = 0; ii < j - 1; ii++)
+		sOut << elems[ii] << " ";
+	if (j > i) sOut << elems[j-1];
+	//	sOut << "}";
 }
 
 template<class T>
@@ -128,8 +134,8 @@ void Set<T>::read(istream& sIn){
 	int n;
 	T d;
 	sIn >> n;
-	size = 0;
-	for (int i = 0; i < n; i++){
+	erase();
+	for (int ii = 0; ii < n; ii++){
 		sIn >> d;
 		add(d);
 	}
@@ -149,23 +155,27 @@ ostream& operator<<(ostream& sOut, Set<T>& set) {
 
 template<class T>
 void Set<T>::removeMax(){
-    size--;
+	j--;
+	if (i == j)
+		erase();
 }
 
 template<class T>
 void Set<T>::removeMin(){
-    shiftLeftFrom(0);
-    size--;
+	shiftLeftFrom(0);
+	j--;
+	if (i == j)
+		erase();
 }
 
 template<class T>
-T* Set<T>::getMin(){
-    return &elems[0];
+const T &Set<T>::getMin(){
+	return elems[i];
 }
 
 template<class T>
-T* Set<T>::getMax(){
-    return &elems[size-1];
+const T &Set<T>::getMax(){
+	return elems[j];
 }
 
 
@@ -173,12 +183,12 @@ T* Set<T>::getMax(){
 
 template<class T>
 bool Set<T>::isFull() const {
-	return size == capacity;
+	return j+1 == capacity;
 }
 
 template<class T>
 int Set<T>::binSearchAux(const T& x, int a, int b) const {
-	// Pre: elems est√° ordenado entre 0 .. size-1
+	// Pre: elems est· ordenado entre 0 .. size-1
 	//      ( 0 <= a <= size ) && ( -1 <= b <= size ) && ( a <= b+1 )
 	//      todos los elementos a la izquierda de 'a' son <= x
 	//      todos los elementos a la derecha de 'b' son > x
@@ -195,43 +205,55 @@ int Set<T>::binSearchAux(const T& x, int a, int b) const {
 			p = binSearchAux(x, a, m - 1);
 	}
 	return p;
-	// Post: devuelve el mayor √≠ndice i (0 <= i <= size-1) que cumple
+	// Post: devuelve el mayor Ìndice i (0 <= i <= size-1) que cumple
 	//       elems[i] <= x
 	//       si x es menor que todos los elementos de elems, devuelve -1
 }
 
 template<class T>
 void Set<T>::binSearch(const T& x, bool& found, int& pos) const {
-	// Pre: los size primeros elementos de elems est√°n ordenados
+	// Pre: los size primeros elementos de elems est·n ordenados
 	//      size >= 0
 
-	pos = binSearchAux(x, 0, size - 1);
-	found = (pos >= 0) && (pos < size) && (elems[pos] == x);
+	pos = binSearchAux(x, i, (j-i) - 1);
+	found = (pos >= i) && (pos <= j) && (elems[pos] == x);
 
-	// Post : devuelve el mayor √≠ndice i (0 <= i <= size-1) que cumple
+	// Post : devuelve el mayor Ìndice i (0 <= i <= size-1) que cumple
 	//        elems[i] <= x
 	//        si x es menor que todos los elementos de elems, devuelve -1
 	//        found es true si x esta en elems[0..size-1]
 }
 
 template<class T>
-void Set<T>::shiftRightFrom(int i){
-	for (int j = size; j > i; j--)
-		elems[j] = elems[j-1];
+void Set<T>::shiftRightFrom(int ini){
+	for (int jj = j + 1; jj > ini; jj--)
+		elems[jj] = elems[jj - 1];
 }
 
 template<class T>
-void Set<T>::shiftLeftFrom(int i){
-	for (; i < size-1; i++)
-		elems[i] = elems[i+1];
+void Set<T>::shiftRightFromTo(int ini, int fin){
+	for (int jj = fin; jj > ini; jj--)
+		elems[jj] = elems[jj - 1];
+}
+
+template<class T>
+void Set<T>::shiftLeftFrom(int ini){
+	for (; ini < j; ini++)
+		elems[ini] = elems[ini + 1];
+}
+
+template<class T>
+void Set<T>::shiftLeftFromTo(int ini, int fin){
+	for (; ini < fin; ini++)
+		elems[ini] = elems[ini + 1];
 }
 
 template<class T>
 void Set<T>::reallocate(){
-	capacity = capacity*2;
+	capacity = capacity * 2;
 	T* newElems = new T[capacity];
-	for (int i = 0; i < size; i++)
-		newElems[i] = elems[i];
+	for (int ii = i; ii <= j; ii++)
+		newElems[ii] = elems[ii];
 	delete[] elems;
 	elems = newElems;
 }
