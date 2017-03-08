@@ -5,3 +5,6 @@ EDA.xcodeproj/project.xcworkspace/xcuserdata/victor.xcuserdatad/UserInterfaceSta
 
 *.xcuserstate
 
+*\Debug
+
+*.suo
