@@ -60,7 +60,7 @@ Set<T>::Set(const Set<T>& set) {
 	j = set.j;
 	capacity = set.capacity;
 	elems = new T[capacity];
-	for (int ii = i; ii <= j; ii++)
+	for (int ii = i; ii < j; ii++)
 		elems[ii] = set.elems[ii];
 }
 
@@ -123,7 +123,7 @@ void Set<T>::erase(){
 template<class T>
 void Set<T>::write(ostream& sOut){
 	//	sOut << "{";
-	for (int ii = 0; ii < j - 1; ii++)
+	for (int ii = i; ii < j - 1; ii++)
 		sOut << elems[ii] << " ";
 	if (j > i) sOut << elems[j-1];
 	//	sOut << "}";
@@ -154,16 +154,17 @@ ostream& operator<<(ostream& sOut, Set<T>& set) {
 }
 
 template<class T>
-void Set<T>::removeMax(){
-	j--;
+void Set<T>::removeMax() {
+	if (i < j)
+		j--;
 	if (i == j)
 		erase();
 }
 
 template<class T>
-void Set<T>::removeMin(){
-	shiftLeftFrom(0);
-	j--;
+void Set<T>::removeMin() {
+	if (i < j)
+		i++;
 	if (i == j)
 		erase();
 }
