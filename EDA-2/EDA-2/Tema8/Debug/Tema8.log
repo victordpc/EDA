@@ -1,11 +1,3 @@
-﻿  Main.cpp
-  Generating Code...
-  Compiling...
-  Tests.cpp
-c:\hlocal\eda\eda-2\eda-2\tema8\list.h(210): warning C4018: '<': signed/unsigned mismatch
-  c:\hlocal\eda\eda-2\eda-2\tema8\list.h(205): note: while compiling class template member function 'const int &List<int>::at(unsigned int) const'
-  c:\hlocal\eda\eda-2\eda-2\tema8\tests.cpp(178): note: see reference to function template instantiation 'const int &List<int>::at(unsigned int) const' being compiled
-  c:\hlocal\eda\eda-2\eda-2\tema8\tests.cpp(138): note: see reference to class template instantiation 'List<int>' being compiled
-  Generating Code...
+﻿  Tema08-10.cpp
   Tema8.vcxproj -> C:\hlocal\EDA\EDA-2\EDA-2\Debug\Tema8.exe
   Tema8.vcxproj -> C:\hlocal\EDA\EDA-2\EDA-2\Debug\Tema8.pdb (Partial PDB)

@@ -20,15 +20,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Exceptions.h" />
+    <ClInclude Include="Tema08-04.h" />
     <ClInclude Include="LinkedListStack.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="Queue.h" />
     <ClInclude Include="Stack.h" />
+    <ClInclude Include="Tema08-10.h" />
     <ClInclude Include="Tests.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Tema08-01.cpp" />
+    <ClCompile Include="Tema08-04.cpp" />
+    <ClCompile Include="Tema08-10.cpp" />
     <ClCompile Include="Tests.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
