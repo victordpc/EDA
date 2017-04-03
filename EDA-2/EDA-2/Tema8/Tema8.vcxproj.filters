@@ -33,6 +33,15 @@
     <ClInclude Include="Tests.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Tema08-04.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tema08-10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tema08-11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -42,6 +51,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Tema08-01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tema08-04.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tema08-10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tema08-11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
