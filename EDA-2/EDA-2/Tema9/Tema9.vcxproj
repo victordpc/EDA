@@ -18,29 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Exceptions.h" />
-    <ClInclude Include="Tema08-04.h" />
-    <ClInclude Include="LinkedListStack.h" />
-    <ClInclude Include="List.h" />
-    <ClInclude Include="Queue.h" />
-    <ClInclude Include="Stack.h" />
-    <ClInclude Include="Tema08-10.h" />
-    <ClInclude Include="Tema08-11.h" />
-    <ClInclude Include="Tests.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Tema08-11.cpp" />
-    <ClCompile Include="Tema08-01.cpp" />
-    <ClCompile Include="Tema08-04.cpp" />
-    <ClCompile Include="Tema08-10.cpp" />
-    <ClCompile Include="Tests.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{1E791439-69F8-4731-A7D3-CC8CC968826F}</ProjectGuid>
-    <RootNamespace>Tema8</RootNamespace>
+    <ProjectGuid>{AB53C7E8-463E-4FA3-BF8C-B2B425C79954}</ProjectGuid>
+    <RootNamespace>Tema9</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -129,6 +110,10 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ArbolBincpp.h" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
