@@ -27,6 +27,12 @@
     <ClCompile Include="Tema09-04.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="Tema09-08.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tema09-10.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Tema09-01.h">
@@ -45,6 +51,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Tema09-04.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tema09-08.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tema09-10.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

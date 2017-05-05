@@ -1,9 +1,9 @@
-#include "Tema09-04.h"
+#include "Tema09-10.h"
 
 
 using namespace std;
 
 int main() {
-	ejercicio0904();
+	ejercicio0910();
 	return 0;
 }
