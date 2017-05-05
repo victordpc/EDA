@@ -115,6 +115,8 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Tema09-01.cpp" />
     <ClCompile Include="Tema09-04.cpp" />
+    <ClCompile Include="Tema09-08.cpp" />
+    <ClCompile Include="Tema09-10.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arbin.h" />
@@ -123,6 +125,8 @@
     <ClInclude Include="Queue.h" />
     <ClInclude Include="Tema09-01.h" />
     <ClInclude Include="Tema09-04.h" />
+    <ClInclude Include="Tema09-08.h" />
+    <ClInclude Include="Tema09-10.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
