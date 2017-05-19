@@ -124,6 +124,7 @@
     <ClInclude Include="..\SetOfInts2.h" />
     <ClInclude Include="..\SetOfInts3.h" />
     <ClInclude Include="..\SetTests.h" />
+    <ClInclude Include="..\Tema11\HashMap.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\AuxiliaryFuncs.cpp" />
