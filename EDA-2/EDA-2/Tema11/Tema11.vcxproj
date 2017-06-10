@@ -111,6 +111,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="consultorio.cpp" />
+    <ClCompile Include="ipud.cpp" />
+    <ClCompile Include="iPud2Ejercicio.cpp" />
+    <ClCompile Include="libreria.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -119,6 +123,11 @@
     <ClInclude Include="fecha.h" />
     <ClInclude Include="Hash.h" />
     <ClInclude Include="HashMap.h" />
+    <ClInclude Include="iPud.h" />
+    <ClInclude Include="iPud2.h" />
+    <ClInclude Include="iPud2Ejercicio.h" />
+    <ClInclude Include="libreria.h" />
+    <ClInclude Include="List.h" />
     <ClInclude Include="Stack.h" />
     <ClInclude Include="TreeMap.h" />
   </ItemGroup>

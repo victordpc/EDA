@@ -66,7 +66,7 @@ public:
 				cout << "Siguiente paciente doctor " << posicion.key() << endl;
 				cout << citas.value() << endl;
 			}
-			else { throw ExcepcionTAD("Medico no existente"); }
+			else { throw ExcepcionTAD("No hay pacientes"); }
 		}
 		else { throw ExcepcionTAD("Medico no existente"); }
 	}
