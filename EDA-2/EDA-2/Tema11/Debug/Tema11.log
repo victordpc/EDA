@@ -1,3 +1,16 @@
-﻿  Main.cpp
+﻿  iPud2Ejercicio.cpp
+c:\hlocal\eda\eda-2\eda-2\tema11\ipud2.h(75): warning C4297: 'iPud2::addSong': se suponía que la función no producía una excepción, pero lo hace
+  c:\hlocal\eda\eda-2\eda-2\tema11\ipud2.h(75): note: __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+c:\hlocal\eda\eda-2\eda-2\tema11\ipud2.h(89): warning C4297: 'iPud2::addToPlaylist': se suponía que la función no producía una excepción, pero lo hace
+  c:\hlocal\eda\eda-2\eda-2\tema11\ipud2.h(89): note: __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+c:\hlocal\eda\eda-2\eda-2\tema11\ipud2.h(96): warning C4297: 'iPud2::current': se suponía que la función no producía una excepción, pero lo hace
+  c:\hlocal\eda\eda-2\eda-2\tema11\ipud2.h(96): note: __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+c:\hlocal\eda\eda-2\eda-2\tema11\ipud2.h(114): warning C4297: 'iPud2::play': se suponía que la función no producía una excepción, pero lo hace
+  c:\hlocal\eda\eda-2\eda-2\tema11\ipud2.h(114): note: __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+c:\hlocal\eda\eda-2\eda-2\tema11\ipud2.h(130): warning C4018: '<': no coinciden signed/unsigned
+c:\hlocal\eda\eda-2\eda-2\tema11\ipud2.h(144): warning C4297: 'iPud2::deleteSong': se suponía que la función no producía una excepción, pero lo hace
+  c:\hlocal\eda\eda-2\eda-2\tema11\ipud2.h(144): note: __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
+c:\hlocal\eda\eda-2\eda-2\tema11\ipud2.h(195): warning C4297: 'iPud2::setPlaylist': se suponía que la función no producía una excepción, pero lo hace
+  c:\hlocal\eda\eda-2\eda-2\tema11\ipud2.h(195): note: __declspec(nothrow), throw(), noexcept(true) o noexcept se han especificado en la función
   Tema11.vcxproj -> C:\hlocal\EDA\EDA-2\EDA-2\Debug\Tema11.exe
   Tema11.vcxproj -> C:\hlocal\EDA\EDA-2\EDA-2\Debug\Tema11.pdb (Partial PDB)
